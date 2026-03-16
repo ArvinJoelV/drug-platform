@@ -1,0 +1,5 @@
+disease,country,year,prevalence,unit,note
+colorectal cancer,United States,2023,154000,cases estimated,Illustrative prevalence-style row for hackathon demos
+colorectal cancer,Germany,2023,62000,cases estimated,Illustrative prevalence-style row for hackathon demos
+lung cancer,United States,2023,238000,cases estimated,Illustrative prevalence-style row for hackathon demos
+

@@ -1,0 +1,7 @@
+requests
+pandas
+langchain
+chromadb
+sentence-transformers
+openai
+
