@@ -1,22 +1,47 @@
-# Drug Platform
+# Clinical Trials RAG System
 
-This repository contains a hackathon prototype for a Market Intelligence Agent.
+A Retrieval-Augmented Generation (RAG) system for searching and analyzing clinical trials data from ClinicalTrials.gov.
 
-## Structure
+## Features
+- **Dynamic Ingestion**: Automatically fetches and embeds clinical trial data for new drugs.
+- **Vector Database**: Uses ChromaDB for efficient semantic search.
+- **Strict Relevance**: Filters search results based on similarity thresholds.
+- **Detailed Insights**: Provides trial summaries, conditions, phases, and direct links to ClinicalTrials.gov and PubMed.
 
-- `market_agent/`: Python market intelligence agent package
-- `market_agent/main.py`: CLI entry point
-- `market_agent/sample_prevalence.csv`: Optional local disease prevalence dataset
+## Setup
 
-## Example
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ArvinJoelV/drug-platform.git
+   cd drug-platform
+   # Switch to the clinical-agent branch if applicable
+   ```
 
-```powershell
-python market_agent/main.py --disease "colorectal cancer" --prevalence-csv market_agent/sample_prevalence.csv
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Required Python Version:**
+   - Python 3.9+ recommended.
+
+## Usage
+
+### Interactive Search
+Run the interactive RAG system:
+```bash
+python rag_query.py
+```
+Type a drug and a condition (e.g., `metformin cancer`) to see relevant clinical trials.
+
+### Manual Ingestion
+To pre-ingest data for a specific drug:
+```bash
+python ingest_trials.py <drug_name>
 ```
 
-## Notes
-
-- Uses WHO GHO and World Bank health indicators as open data sources.
-- Uses ChromaDB for vector storage when installed.
-- Falls back to lightweight local implementations if optional dependencies are missing.
-
+## Essential Files
+- `clinical_api.py`: Handles fetching data from ClinicalTrials.gov API.
+- `ingest_trials.py`: Handles embedding and storing data in the vector database.
+- `rag_query.py`: Main entry point for the interactive RAG interface.
+- `requirements.txt`: Project dependencies.

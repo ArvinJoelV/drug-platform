@@ -1,0 +1,6 @@
+requests
+chromadb
+sentence-transformers
+fastapi
+uvicorn
+pydantic
