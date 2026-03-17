@@ -1,0 +1,16 @@
+# Local database
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
