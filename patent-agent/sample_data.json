@@ -1,0 +1,24 @@
+[
+  {
+    "patent_id": "CN111658647A",
+    "title": "Application of thalidomide and thalidomide derivative",
+    "assignee": "Xuanwu Hospital Capital Medical Univ",
+    "filing_date": "2019-03-08",
+    "publication_date": "2020-09-15",
+    "legal_status": "Discontinued",
+    "expiry_date": null,
+    "patent_type": "method-of-use",
+    "abstract": "The invention provides an application of thalidomide or a thalidomide derivative in preparation of a medicine for treating arteriovenous malformation. The invention also provides a pharmaceutical composition comprising thalidomide or the thalidomide derivative, and the pharmaceutical composition is used in treatment of arteriovenous malformation. The invention also provides a method of treating arteriovenous malformation, and the method comprises a step of applying an effective amount of thalidomide or the thalidomide derivative to an individual with requirements."
+  },
+  {
+    "patent_id": "US9876543B2",
+    "title": "Novel crystalline forms of thalidomide",
+    "assignee": "Celgene Corporation",
+    "filing_date": "2005-08-20",
+    "grant_date": "2008-03-15",
+    "expiry_date": "2025-08-20",
+    "legal_status": "Active",
+    "patent_type": "formulation",
+    "abstract": "The invention relates to novel polymorphic forms of thalidomide and pharmaceutical compositions thereof."
+  }
+]

@@ -1,0 +1,4 @@
+#requirements.txt
+groq
+chromadb
+python-dotenv
