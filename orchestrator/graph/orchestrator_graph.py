@@ -1,0 +1,51 @@
+from langgraph.graph import StateGraph, START, END
+
+from orchestrator.graph.state import OrchestratorState
+from orchestrator.graph.nodes.input_node import input_node
+from orchestrator.graph.nodes.clinical_node import clinical_node
+from orchestrator.graph.nodes.patent_node import patent_node
+from orchestrator.graph.nodes.regulatory_node import regulatory_node
+from orchestrator.graph.nodes.market_node import market_node
+from orchestrator.graph.nodes.literature_node import literature_node
+from orchestrator.graph.nodes.aggregator_node import aggregator_node
+
+def build_graph():
+    builder = StateGraph(OrchestratorState)
+    
+    # 1. Define nodes
+    builder.add_node("input", input_node)
+    builder.add_node("clinical", clinical_node)
+    builder.add_node("patent", patent_node)
+    builder.add_node("regulatory", regulatory_node)
+    builder.add_node("market", market_node)
+    builder.add_node("literature", literature_node)
+    builder.add_node("aggregator", aggregator_node)
+    
+    # 2. Define edges and topology
+    
+    # Start -> Input
+    builder.add_edge(START, "input")
+    
+    # Flow out into Layer 1 parallel nodes
+    builder.add_edge("input", "clinical")
+    builder.add_edge("input", "patent")
+    builder.add_edge("input", "regulatory")
+    builder.add_edge("input", "market")
+    
+    # Layer 2 Dependency (clinical -> literature)
+    builder.add_edge("clinical", "literature")
+    
+    # Sync barrier: Wait for layer 1 independent + layer 2 literature to finish
+    # LangGraph automatically joins state on these edges
+    builder.add_edge("patent", "aggregator")
+    builder.add_edge("regulatory", "aggregator")
+    builder.add_edge("market", "aggregator")
+    builder.add_edge("literature", "aggregator")
+    
+    # Final Output
+    builder.add_edge("aggregator", END)
+    
+    return builder.compile()
+
+# Instantiated graph module
+graph = build_graph()

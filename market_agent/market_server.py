@@ -207,7 +207,7 @@ def create_sample_prevalence_data():
 
 def main():
     parser = argparse.ArgumentParser(description="Market Intelligence Agent Server")
-    parser.add_argument("--port", type=int, default=8006, help="Server port")
+    parser.add_argument("--port", type=int, default=8004, help="Server port")
     parser.add_argument("--create-sample", action="store_true", help="Create sample prevalence data")
     parser.add_argument("--persist-dir", type=str, default="./chroma_store", help="ChromaDB persist directory")
     parser.add_argument("--top-k", type=int, default=5, help="Number of documents to retrieve")

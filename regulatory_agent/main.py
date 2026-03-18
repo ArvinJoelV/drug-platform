@@ -12,6 +12,10 @@ import os
 from typing import Optional
 import types
 
+from dotenv import load_dotenv
+
+
+
 # Local imports
 from models import AgentRequest, AgentResponse, RegulatoryIntelligence
 from query_processor import QueryProcessor
@@ -22,6 +26,9 @@ from gemini_reasoning import GeminiReasoningLayer
 from confidence_scorer import ConfidenceScorer
 from data_loader import RegulatoryDataLoader
 import config
+
+
+load_dotenv() 
 
 # Configure logging
 logging.basicConfig(
@@ -82,7 +89,7 @@ async def startup_event():
     
     # Initialize Gemini (will use GOOGLE_API_KEY from environment)
     try:
-        GEMINI_API_KEY = "AIzaSyCRKV0HMTVQ_TcPcqCd24noj6XCUG1tEkU"
+        GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
         gemini_layer = GeminiReasoningLayer(api_key=GEMINI_API_KEY)
         logger.info("Gemini layer initialized")
     except Exception as e:
@@ -272,7 +279,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
-        port=8000,
+        port=8005,
         reload=True,
         log_level=config.LOG_LEVEL.lower()
     )
