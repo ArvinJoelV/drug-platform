@@ -1,5 +1,21 @@
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 from orchestrator.graph.state import OrchestratorState
+
+def _agent_payload(
+    state: OrchestratorState,
+    agent_name: str,
+    state_key: str,
+) -> Dict[str, Any]:
+    status_dict = state.get("status", {}) or {}
+    errors = state.get("errors", {}) or {}
+    response: Optional[Dict[str, Any]] = state.get(state_key)
+
+    return {
+        "status": status_dict.get(agent_name, "not_run"),
+        "error": errors.get(agent_name),
+        "response": response,
+    }
+
 
 def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
     molecule = state.get("molecule", "Unknown")
@@ -14,7 +30,15 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
     # Calculate successful source list
     status_dict = state.get("status", {})
     sources_used = [node for node, status in status_dict.items() if status == "success"]
-    
+
+    agent_responses = {
+        "clinical": _agent_payload(state, "clinical", "clinical_data"),
+        "literature": _agent_payload(state, "literature", "literature_data"),
+        "patent": _agent_payload(state, "patent", "patent_data"),
+        "regulatory": _agent_payload(state, "regulatory", "regulatory_data"),
+        "market": _agent_payload(state, "market", "market_data"),
+    }
+
     # Produce the cross-domain structured dictionary
     report = {
         "molecule": molecule,
@@ -34,7 +58,8 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
         "meta": {
             "confidence": "medium",  # placeholder, can build heuristic later
             "sources_used": sources_used
-        }
+        },
+        "agents": agent_responses,
     }
     
     return report

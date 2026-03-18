@@ -1,0 +1,784 @@
+{
+  "molecule": "Metformin",
+  "summary": {
+    "clinical_signal": "Diabetes",
+    "literature_signal": "Success",
+    "patent_status": "Unknown",
+    "regulatory_status": "",
+    "market_signal": "High"
+  },
+  "evidence": {
+    "clinical_trials": [
+      {
+        "trial_id": "NCT06727838",
+        "title": "Study on Drug Interaction of Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+        "condition": "Diabetes",
+        "phase": "PHASE1",
+        "status": "NOT_YET_RECRUITING",
+        "summary": "This study was a single-center, open, fixed-sequence, self-controlled trial design conducted in healthy subjects.",
+        "pmids": [],
+        "relevance_score": 1.61,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT00745433",
+        "title": "Switch From Metformin Monotherapy to a Bitherapy With Metformin and Repaglinide",
+        "condition": "Diabetes",
+        "phase": "N/A",
+        "status": "COMPLETED",
+        "summary": "This study is conducted in Europe. The aim of this observational study is to investigate the efficacy (e.g. glycemic control) and safety (e.g. hypoglycemic episodes) when adding repaglinide to a monotherapy of metformin in type 2 diabetic patients under normal clinical practice",
+        "pmids": [],
+        "relevance_score": 1.38,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT01478308",
+        "title": "Metformin With Standard Taxotere and Prednisone in the Treatment of Castration Resistant Prostate Cancer",
+        "condition": "Prostate Cancer",
+        "phase": "PHASE2",
+        "status": "WITHDRAWN",
+        "summary": "This study is being conducted to determine the effectiveness of standard 3 weekly treatments using docetaxel and prednisone with metformin in patients with castration-resistant metastatic prostate cancer.",
+        "pmids": [],
+        "relevance_score": 1.32,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT00860288",
+        "title": "Efficacy and Long-Term Safety of Vildagliptin as Add-on Therapy to Metformin in Patients With Type 2 Diabetes",
+        "condition": "Diabetes Mellitus, Type 2",
+        "phase": "PHASE2",
+        "status": "COMPLETED",
+        "summary": "This is a 2-3 period parallel group study with an adaptive element in Type 2 diabetes patients receiving vildagliptin as add-on therapy to metformin",
+        "pmids": [],
+        "relevance_score": 1.31,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT02457286",
+        "title": "Improving Insulin Resistance To Treat Non-Alcoholic Fatty Liver Disease: A Pilot Study",
+        "condition": "Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "phase": "PHASE1",
+        "status": "WITHDRAWN",
+        "summary": "Metformin is being compared to exercise and diet modifications. The researchers are interested in learning if the addition of metformin to lifestyle modifications is more helpful in treating the condition or disorder. Although metformin is FDA approved to treat type 2 diabetes, it is not FDA approved for the treatment of Non-alcoholic fatty liver (NAFLD) and is considered investigational for the purpose of this study.",
+        "pmids": [
+          "22374640",
+          "19533014",
+          "15895401",
+          "19293782",
+          "18839053",
+          "18366995"
+        ],
+        "relevance_score": 1.29,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT00376038",
+        "title": "Drug Interactions From Simultaneous Administration Of Metformin And GSK189075 To Subjects With Type 2 Diabetes",
+        "condition": "Type 2 Diabetes Mellitus",
+        "phase": "PHASE1",
+        "status": "COMPLETED",
+        "summary": "GSK189075 is intended for use as a single treatment or in combination with other treatments for tye 2 diabetes mellitus (T2DM). Metformin is widely used in Europe and the USA for the treatment of T2DM. This study will evaluate the effect of GSK189075 on metformin levels in the blood in T2DM subjects. The rationale is to look for any safety problems that may result when the 2 drugs are given together.",
+        "pmids": [
+          "23631443"
+        ],
+        "relevance_score": 1.23,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT01831661",
+        "title": "Bioequivalence Study of Metformin Hydrochloride Extended-Release Tablets USP 750 mg Under Fasting Condition",
+        "condition": "Fasting",
+        "phase": "PHASE1",
+        "status": "COMPLETED",
+        "summary": "The study was a randomized, open label, two-treatment, two-period, two-sequence, single dose, crossover, oral bioequivalence study in normal, healthy adult human subjects under fasting condition.",
+        "pmids": [],
+        "relevance_score": 1.22,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT06495931",
+        "title": "Study on Drug Interaction of HRS-1780 Tablets, Henagliflozin Tablets, Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+        "condition": "Type 2 Diabetes Mellitus",
+        "phase": "PHASE1",
+        "status": "NOT_YET_RECRUITING",
+        "summary": "This study was designed as a single-center, single-arm, open, fixed-sequence, self-controlled trial in healthy subjects.",
+        "pmids": [],
+        "relevance_score": 1.21,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT04931017",
+        "title": "Metformin for Chemoprevention of Lung Cancer in Overweight or Obese Individuals at High Risk for Lung Cancer",
+        "condition": "Lung Carcinoma",
+        "phase": "PHASE2",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "summary": "This phase II trial determines the effect of metformin extended release on the risk for developing lung cancer in overweight/obese patients that are at high-risk for developing lung cancer. Metformin is widely used to treat type II diabetes and has a long history of safety and minimal side effects. At similar dosage, the drug may have potential anti-cancer activity. Metformin use has been associated with improved survival in patients with non-small cell lung carcinoma, a specific type of lung cancer, and it has also been shown to enhance immune mobilization against tumors. This trial aims to see whether metformin extended release as a preventative treatment may lower the chance of developing lung cancer, and whether it may help patients' immune system learn (\"reprogram\") to lower a certain type of immune cell (called regulatory T cells) that are linked to tumor development.",
+        "pmids": [],
+        "relevance_score": 1.21,
+        "drug_queried": "metformin"
+      },
+      {
+        "trial_id": "NCT03629639",
+        "title": "Metformin for Treatment of Psoriasis Combined With Disorders of Glucose and Lipid Metabolism",
+        "condition": "Psoriasis Vulgaris With Metabolic Disorders",
+        "phase": "PHASE4",
+        "status": "UNKNOWN",
+        "summary": "Psoriasis and metabolic disorders are well-known mutual comorbidities. The investigators hypothesized metformin can ameliorate both psoriasis and metabolic disorders mainly via gut microbiota modulation. The investigators design a randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of treatment of metformin for psoriasis combined with disorders of glucose and lipid metabolism and to explore the role of gut microbiota during the process.",
+        "pmids": [
+          "29549478",
+          "28670544",
+          "28538228",
+          "25443628",
+          "23437788",
+          "18194825",
+          "29130553",
+          "23804561"
+        ],
+        "relevance_score": 1.18,
+        "drug_queried": "metformin"
+      }
+    ],
+    "papers": [
+      {
+        "disease_associations": [
+          "glioblastoma",
+          "grade 4 astrocytoma"
+        ],
+        "mechanisms": [
+          "induction of chemoresistance",
+          "suppression of antitumor immune responses",
+          "modulation of DNA damage repair pathways"
+        ],
+        "drug_mentions": [
+          "dexamethasone",
+          "radiotherapy",
+          "temozolomide"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "accumulating clinical and translational evidence suggests detrimental interactions with radiotherapy (RT) and temozolomide (TMZ)",
+        "confidence": 1.0,
+        "pmid": "41847699",
+        "paper_title": "Impact of corticosteroid administration on glioblastoma progression before and after adjuvant treatments: recent updates on contradictory findings and mechanistic interactions."
+      },
+      {
+        "disease_associations": [
+          "glioma"
+        ],
+        "mechanisms": [
+          "anti-proliferative",
+          "anti-migratory"
+        ],
+        "drug_mentions": [
+          "dexamethasone"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "experimental studies have reported anti-proliferative and anti-migratory effects of DEX in glioma models",
+        "confidence": 1.0,
+        "pmid": "41847699",
+        "paper_title": "Impact of corticosteroid administration on glioblastoma progression before and after adjuvant treatments: recent updates on contradictory findings and mechanistic interactions."
+      },
+      {
+        "disease_associations": [
+          "acute pancreatitis",
+          "type 2 diabetes mellitus"
+        ],
+        "mechanisms": [
+          "pancreatic inflammation",
+          "peri-pancreatic fluid"
+        ],
+        "drug_mentions": [
+          "sitagliptin",
+          "combined oral contraceptive pill"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "A 33-year-old female with type 2 diabetes mellitus developed mild acute pancreatitis after starting sitagliptin therapy.",
+        "confidence": 1.0,
+        "pmid": "41847627",
+        "paper_title": "Acute Pancreatitis in a Young Patient With Type 2 Diabetes Mellitus Taking Sitagliptin and the Combined Oral Contraceptive Pill."
+      },
+      {
+        "pmid": "41847075",
+        "paper_title": "Simultaneous Segmentation of Geographic Atrophy in Longitudinally Acquired Fundus Autofluorescence Images.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Accurately measuring geographic atrophy (GA) progression in clinical trials is challenging, owing to its slow and variable nature. This study develops deep learning algorithms that can measure GA grow",
+        "confidence": 0.3
+      },
+      {
+        "disease_associations": [
+          "COVID-19"
+        ],
+        "mechanisms": [
+          "inflammatory activation of monocytes and macrophages"
+        ],
+        "drug_mentions": [
+          "metformin"
+        ],
+        "sentiment": "positive",
+        "evidence_snippet": "Metformin has been identified as a potent monocyte inflammatory suppressor, and it has been demonstrated to attenuate inflammation in COVID-19.",
+        "confidence": 1.0,
+        "pmid": "41847044",
+        "paper_title": "Immunoregulatory effect of metformin in monocytes exposed to SARS-CoV-2 spike protein subunit 1."
+      },
+      {
+        "disease_associations": [
+          "COVID-19"
+        ],
+        "mechanisms": [
+          "modulating monocyte inflammatory response"
+        ],
+        "drug_mentions": [
+          "metformin",
+          "rotenone",
+          "S1QEL",
+          "A769662"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "We thus sought to investigate metformin's main interactions and their respective isolated effects in modulating monocyte inflammatory response to SARS-CoV-2 stimulation.",
+        "confidence": 0.8,
+        "pmid": "41847044",
+        "paper_title": "Immunoregulatory effect of metformin in monocytes exposed to SARS-CoV-2 spike protein subunit 1."
+      },
+      {
+        "disease_associations": [
+          "stress urinary incontinence"
+        ],
+        "mechanisms": [
+          "AMP-activated protein kinase (AMPK) activation"
+        ],
+        "drug_mentions": [
+          "metformin"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "metformin, a known AMP-activated protein kinase (AMPK) activator, has shown repair effects after skeletal muscle injury.",
+        "confidence": 1.0,
+        "pmid": "41845589",
+        "paper_title": "Metformin enhances external urethral sphincter integrity and restores continence via AMPK activation in a rat model of stress urinary incontinence."
+      },
+      {
+        "disease_associations": [
+          "skeletal muscle injury"
+        ],
+        "mechanisms": [
+          "AMP-activated protein kinase (AMPK) activation"
+        ],
+        "drug_mentions": [
+          "metformin"
+        ],
+        "sentiment": "positive",
+        "evidence_snippet": "metformin has shown repair effects after skeletal muscle injury.",
+        "confidence": 1.0,
+        "pmid": "41845589",
+        "paper_title": "Metformin enhances external urethral sphincter integrity and restores continence via AMPK activation in a rat model of stress urinary incontinence."
+      },
+      {
+        "disease_associations": [
+          "intracranial aneurysm",
+          "subarachnoid hemorrhage",
+          "diabetes"
+        ],
+        "mechanisms": [
+          "protective effects",
+          "insulin signaling"
+        ],
+        "drug_mentions": [
+          "metformin"
+        ],
+        "sentiment": "positive",
+        "evidence_snippet": "Experimental data have shown that metformin has protective effects against IA rupture.",
+        "confidence": 1.0,
+        "pmid": "41844141",
+        "paper_title": "Effect of Metformin in Diabetic Patients After Treatment of Intracranial Aneurysm: A Nationwide Cohort Study."
+      },
+      {
+        "disease_associations": [
+          "intracranial aneurysm",
+          "subarachnoid hemorrhage",
+          "diabetes"
+        ],
+        "mechanisms": [
+          "protective effects"
+        ],
+        "drug_mentions": [
+          "metformin"
+        ],
+        "sentiment": "positive",
+        "evidence_snippet": "Metformin use was associated with a reduced risk of SAH.",
+        "confidence": 1.0,
+        "pmid": "41844141",
+        "paper_title": "Effect of Metformin in Diabetic Patients After Treatment of Intracranial Aneurysm: A Nationwide Cohort Study."
+      }
+    ],
+    "patents": [],
+    "approvals": [
+      "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+    ]
+  },
+  "meta": {
+    "confidence": "medium",
+    "sources_used": [
+      "clinical",
+      "market",
+      "patent",
+      "regulatory",
+      "aggregator",
+      "literature"
+    ]
+  },
+  "agents": {
+    "clinical": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "molecule": "Metformin",
+        "summary": {
+          "total_trials": 10,
+          "phases": {
+            "PHASE1": 5,
+            "N/A": 1,
+            "PHASE2": 3,
+            "PHASE4": 1
+          },
+          "statuses": {
+            "NOT_YET_RECRUITING": 2,
+            "COMPLETED": 4,
+            "WITHDRAWN": 2,
+            "ACTIVE_NOT_RECRUITING": 1,
+            "UNKNOWN": 1
+          },
+          "conditions": [
+            "Diabetes Mellitus, Type 2",
+            "Non-alcoholic Fatty Liver Disease (NAFLD)",
+            "Type 2 Diabetes Mellitus",
+            "Psoriasis Vulgaris With Metabolic Disorders",
+            "Lung Carcinoma"
+          ],
+          "most_common_condition": "Diabetes"
+        },
+        "trials": [
+          {
+            "trial_id": "NCT06727838",
+            "title": "Study on Drug Interaction of Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+            "condition": "Diabetes",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "summary": "This study was a single-center, open, fixed-sequence, self-controlled trial design conducted in healthy subjects.",
+            "pmids": [],
+            "relevance_score": 1.61,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT00745433",
+            "title": "Switch From Metformin Monotherapy to a Bitherapy With Metformin and Repaglinide",
+            "condition": "Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "summary": "This study is conducted in Europe. The aim of this observational study is to investigate the efficacy (e.g. glycemic control) and safety (e.g. hypoglycemic episodes) when adding repaglinide to a monotherapy of metformin in type 2 diabetic patients under normal clinical practice",
+            "pmids": [],
+            "relevance_score": 1.38,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT01478308",
+            "title": "Metformin With Standard Taxotere and Prednisone in the Treatment of Castration Resistant Prostate Cancer",
+            "condition": "Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "summary": "This study is being conducted to determine the effectiveness of standard 3 weekly treatments using docetaxel and prednisone with metformin in patients with castration-resistant metastatic prostate cancer.",
+            "pmids": [],
+            "relevance_score": 1.32,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT00860288",
+            "title": "Efficacy and Long-Term Safety of Vildagliptin as Add-on Therapy to Metformin in Patients With Type 2 Diabetes",
+            "condition": "Diabetes Mellitus, Type 2",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "summary": "This is a 2-3 period parallel group study with an adaptive element in Type 2 diabetes patients receiving vildagliptin as add-on therapy to metformin",
+            "pmids": [],
+            "relevance_score": 1.31,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT02457286",
+            "title": "Improving Insulin Resistance To Treat Non-Alcoholic Fatty Liver Disease: A Pilot Study",
+            "condition": "Non-alcoholic Fatty Liver Disease (NAFLD)",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "summary": "Metformin is being compared to exercise and diet modifications. The researchers are interested in learning if the addition of metformin to lifestyle modifications is more helpful in treating the condition or disorder. Although metformin is FDA approved to treat type 2 diabetes, it is not FDA approved for the treatment of Non-alcoholic fatty liver (NAFLD) and is considered investigational for the purpose of this study.",
+            "pmids": [
+              "22374640",
+              "19533014",
+              "15895401",
+              "19293782",
+              "18839053",
+              "18366995"
+            ],
+            "relevance_score": 1.29,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT00376038",
+            "title": "Drug Interactions From Simultaneous Administration Of Metformin And GSK189075 To Subjects With Type 2 Diabetes",
+            "condition": "Type 2 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "summary": "GSK189075 is intended for use as a single treatment or in combination with other treatments for tye 2 diabetes mellitus (T2DM). Metformin is widely used in Europe and the USA for the treatment of T2DM. This study will evaluate the effect of GSK189075 on metformin levels in the blood in T2DM subjects. The rationale is to look for any safety problems that may result when the 2 drugs are given together.",
+            "pmids": [
+              "23631443"
+            ],
+            "relevance_score": 1.23,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT01831661",
+            "title": "Bioequivalence Study of Metformin Hydrochloride Extended-Release Tablets USP 750 mg Under Fasting Condition",
+            "condition": "Fasting",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "summary": "The study was a randomized, open label, two-treatment, two-period, two-sequence, single dose, crossover, oral bioequivalence study in normal, healthy adult human subjects under fasting condition.",
+            "pmids": [],
+            "relevance_score": 1.22,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT06495931",
+            "title": "Study on Drug Interaction of HRS-1780 Tablets, Henagliflozin Tablets, Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+            "condition": "Type 2 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "summary": "This study was designed as a single-center, single-arm, open, fixed-sequence, self-controlled trial in healthy subjects.",
+            "pmids": [],
+            "relevance_score": 1.21,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT04931017",
+            "title": "Metformin for Chemoprevention of Lung Cancer in Overweight or Obese Individuals at High Risk for Lung Cancer",
+            "condition": "Lung Carcinoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "summary": "This phase II trial determines the effect of metformin extended release on the risk for developing lung cancer in overweight/obese patients that are at high-risk for developing lung cancer. Metformin is widely used to treat type II diabetes and has a long history of safety and minimal side effects. At similar dosage, the drug may have potential anti-cancer activity. Metformin use has been associated with improved survival in patients with non-small cell lung carcinoma, a specific type of lung cancer, and it has also been shown to enhance immune mobilization against tumors. This trial aims to see whether metformin extended release as a preventative treatment may lower the chance of developing lung cancer, and whether it may help patients' immune system learn (\"reprogram\") to lower a certain type of immune cell (called regulatory T cells) that are linked to tumor development.",
+            "pmids": [],
+            "relevance_score": 1.21,
+            "drug_queried": "metformin"
+          },
+          {
+            "trial_id": "NCT03629639",
+            "title": "Metformin for Treatment of Psoriasis Combined With Disorders of Glucose and Lipid Metabolism",
+            "condition": "Psoriasis Vulgaris With Metabolic Disorders",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "summary": "Psoriasis and metabolic disorders are well-known mutual comorbidities. The investigators hypothesized metformin can ameliorate both psoriasis and metabolic disorders mainly via gut microbiota modulation. The investigators design a randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of treatment of metformin for psoriasis combined with disorders of glucose and lipid metabolism and to explore the role of gut microbiota during the process.",
+            "pmids": [
+              "29549478",
+              "28670544",
+              "28538228",
+              "25443628",
+              "23437788",
+              "18194825",
+              "29130553",
+              "23804561"
+            ],
+            "relevance_score": 1.18,
+            "drug_queried": "metformin"
+          }
+        ],
+        "total_trials_found": 10
+      }
+    },
+    "literature": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "status": "success",
+        "papers_analyzed": 6,
+        "findings_extracted": 10,
+        "findings": [
+          {
+            "disease_associations": [
+              "glioblastoma",
+              "grade 4 astrocytoma"
+            ],
+            "mechanisms": [
+              "induction of chemoresistance",
+              "suppression of antitumor immune responses",
+              "modulation of DNA damage repair pathways"
+            ],
+            "drug_mentions": [
+              "dexamethasone",
+              "radiotherapy",
+              "temozolomide"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "accumulating clinical and translational evidence suggests detrimental interactions with radiotherapy (RT) and temozolomide (TMZ)",
+            "confidence": 1.0,
+            "pmid": "41847699",
+            "paper_title": "Impact of corticosteroid administration on glioblastoma progression before and after adjuvant treatments: recent updates on contradictory findings and mechanistic interactions."
+          },
+          {
+            "disease_associations": [
+              "glioma"
+            ],
+            "mechanisms": [
+              "anti-proliferative",
+              "anti-migratory"
+            ],
+            "drug_mentions": [
+              "dexamethasone"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "experimental studies have reported anti-proliferative and anti-migratory effects of DEX in glioma models",
+            "confidence": 1.0,
+            "pmid": "41847699",
+            "paper_title": "Impact of corticosteroid administration on glioblastoma progression before and after adjuvant treatments: recent updates on contradictory findings and mechanistic interactions."
+          },
+          {
+            "disease_associations": [
+              "acute pancreatitis",
+              "type 2 diabetes mellitus"
+            ],
+            "mechanisms": [
+              "pancreatic inflammation",
+              "peri-pancreatic fluid"
+            ],
+            "drug_mentions": [
+              "sitagliptin",
+              "combined oral contraceptive pill"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "A 33-year-old female with type 2 diabetes mellitus developed mild acute pancreatitis after starting sitagliptin therapy.",
+            "confidence": 1.0,
+            "pmid": "41847627",
+            "paper_title": "Acute Pancreatitis in a Young Patient With Type 2 Diabetes Mellitus Taking Sitagliptin and the Combined Oral Contraceptive Pill."
+          },
+          {
+            "pmid": "41847075",
+            "paper_title": "Simultaneous Segmentation of Geographic Atrophy in Longitudinally Acquired Fundus Autofluorescence Images.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Accurately measuring geographic atrophy (GA) progression in clinical trials is challenging, owing to its slow and variable nature. This study develops deep learning algorithms that can measure GA grow",
+            "confidence": 0.3
+          },
+          {
+            "disease_associations": [
+              "COVID-19"
+            ],
+            "mechanisms": [
+              "inflammatory activation of monocytes and macrophages"
+            ],
+            "drug_mentions": [
+              "metformin"
+            ],
+            "sentiment": "positive",
+            "evidence_snippet": "Metformin has been identified as a potent monocyte inflammatory suppressor, and it has been demonstrated to attenuate inflammation in COVID-19.",
+            "confidence": 1.0,
+            "pmid": "41847044",
+            "paper_title": "Immunoregulatory effect of metformin in monocytes exposed to SARS-CoV-2 spike protein subunit 1."
+          },
+          {
+            "disease_associations": [
+              "COVID-19"
+            ],
+            "mechanisms": [
+              "modulating monocyte inflammatory response"
+            ],
+            "drug_mentions": [
+              "metformin",
+              "rotenone",
+              "S1QEL",
+              "A769662"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "We thus sought to investigate metformin's main interactions and their respective isolated effects in modulating monocyte inflammatory response to SARS-CoV-2 stimulation.",
+            "confidence": 0.8,
+            "pmid": "41847044",
+            "paper_title": "Immunoregulatory effect of metformin in monocytes exposed to SARS-CoV-2 spike protein subunit 1."
+          },
+          {
+            "disease_associations": [
+              "stress urinary incontinence"
+            ],
+            "mechanisms": [
+              "AMP-activated protein kinase (AMPK) activation"
+            ],
+            "drug_mentions": [
+              "metformin"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "metformin, a known AMP-activated protein kinase (AMPK) activator, has shown repair effects after skeletal muscle injury.",
+            "confidence": 1.0,
+            "pmid": "41845589",
+            "paper_title": "Metformin enhances external urethral sphincter integrity and restores continence via AMPK activation in a rat model of stress urinary incontinence."
+          },
+          {
+            "disease_associations": [
+              "skeletal muscle injury"
+            ],
+            "mechanisms": [
+              "AMP-activated protein kinase (AMPK) activation"
+            ],
+            "drug_mentions": [
+              "metformin"
+            ],
+            "sentiment": "positive",
+            "evidence_snippet": "metformin has shown repair effects after skeletal muscle injury.",
+            "confidence": 1.0,
+            "pmid": "41845589",
+            "paper_title": "Metformin enhances external urethral sphincter integrity and restores continence via AMPK activation in a rat model of stress urinary incontinence."
+          },
+          {
+            "disease_associations": [
+              "intracranial aneurysm",
+              "subarachnoid hemorrhage",
+              "diabetes"
+            ],
+            "mechanisms": [
+              "protective effects",
+              "insulin signaling"
+            ],
+            "drug_mentions": [
+              "metformin"
+            ],
+            "sentiment": "positive",
+            "evidence_snippet": "Experimental data have shown that metformin has protective effects against IA rupture.",
+            "confidence": 1.0,
+            "pmid": "41844141",
+            "paper_title": "Effect of Metformin in Diabetic Patients After Treatment of Intracranial Aneurysm: A Nationwide Cohort Study."
+          },
+          {
+            "disease_associations": [
+              "intracranial aneurysm",
+              "subarachnoid hemorrhage",
+              "diabetes"
+            ],
+            "mechanisms": [
+              "protective effects"
+            ],
+            "drug_mentions": [
+              "metformin"
+            ],
+            "sentiment": "positive",
+            "evidence_snippet": "Metformin use was associated with a reduced risk of SAH.",
+            "confidence": 1.0,
+            "pmid": "41844141",
+            "paper_title": "Effect of Metformin in Diabetic Patients After Treatment of Intracranial Aneurysm: A Nationwide Cohort Study."
+          }
+        ]
+      }
+    },
+    "patent": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "molecule": "Metformin",
+        "patent_status": "Unknown",
+        "expiry_year": "Unknown",
+        "commercial_freedom": "High",
+        "detailed_analysis": {
+          "patent_summary": {
+            "total_patents_found": "0",
+            "major_assignees": [],
+            "patent_types_distribution": {}
+          },
+          "expiry_analysis": {
+            "core_patent_status": "Unknown",
+            "earliest_expiry": "Unknown",
+            "latest_expiry": "Unknown"
+          },
+          "repurposing_feasibility": {
+            "freedom_to_operate": "High",
+            "reasoning": "No patents found for this molecule in the database. This suggests freedom to operate, but verify with a comprehensive search."
+          },
+          "opportunity_signals": [
+            "No patent barriers identified"
+          ],
+          "risk_factors": [
+            "Limited patent data available - manual verification recommended"
+          ],
+          "citations": []
+        }
+      }
+    },
+    "regulatory": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "success": true,
+        "data": {
+          "drug": "metformin",
+          "approved_indications": [
+            "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+          ],
+          "warnings": [],
+          "contradictions": [
+            "Renal impairment (eGFR below 30 mL/min/1.73 m²).",
+            "Acute or chronic metabolic acidosis.",
+            "Hypersensitivity to metformin.",
+            "Acute conditions that can alter renal function."
+          ],
+          "adverse_events": [
+            "Diarrhea.",
+            "Nausea.",
+            "Vomiting.",
+            "Flatulence.",
+            "Asthenia.",
+            "Indigestion.",
+            "Abdominal discomfort.",
+            "Headache.",
+            "Note: These reactions are more common during initiation and usually resolve spontaneously."
+          ],
+          "regulatory_summary": "",
+          "confidence": 0.714987570092082,
+          "sources": [
+            "FDA Label - Lisinopril",
+            "FDA Label - Metformin",
+            "FDA Label - Aspirin"
+          ],
+          "retrieval_metadata": {
+            "chunks_retrieved": 8,
+            "sections_found": [
+              "warnings",
+              "adverse",
+              "contradictions",
+              "indications"
+            ],
+            "query_expansion": [
+              "metformin label fda",
+              "metformin approved indications",
+              "metformin warnings precautions"
+            ]
+          }
+        },
+        "error": null
+      }
+    },
+    "market": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "disease": "diabetes",
+        "market_potential": "High",
+        "global_prevalence": "Unknown",
+        "market_growth": "Unknown",
+        "detailed_analysis": {
+          "disease": "diabetes",
+          "market_summary": "diabetes shows relevant disease-burden and health-system signals in the retrieved data. Healthcare expenditure indicators from WHO and World Bank suggest where payer capacity may support new therapies, while any disease-specific prevalence rows highlight the potential patient pool. Taken together, these signals can be used as an early proxy for treatment market attractiveness.",
+          "key_statistics": [
+            "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Africa Eastern and Southern. Year: 2021. Value: 92.3503331753643. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+            "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Least developed countries: UN classification. Year: 2021. Value: 48.1863019536304. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+            "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD). Year: 2021. Value: 131.194717308625. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing."
+          ],
+          "sources": [
+            "World Bank"
+          ]
+        }
+      }
+    }
+  }
+}

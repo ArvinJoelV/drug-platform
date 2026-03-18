@@ -1,0 +1,1003 @@
+{
+  "molecule": "Aspirin",
+  "summary": {
+    "clinical_signal": "Aspirin Resistance",
+    "literature_signal": "Success",
+    "patent_status": "Unknown",
+    "regulatory_status": "",
+    "market_signal": "High"
+  },
+  "evidence": {
+    "clinical_trials": [
+      {
+        "trial_id": "NCT01432652",
+        "title": "The Efficacy of Aspirin in the Postoperative Period in Vascular Surgery",
+        "condition": "Aspirin Resistance",
+        "phase": "N/A",
+        "status": "COMPLETED",
+        "summary": "The purpose of this study is to determine the incidence of aspirin resistance in the population of vascular surgery patients; and to evaluate the changes in the efficacy of aspirin in the first five postoperative days.",
+        "pmids": [],
+        "relevance_score": 1.43,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT00005493",
+        "title": "Observational Aspirin Use and CVD in the Physicians' Health Study",
+        "condition": "Cardiovascular Diseases",
+        "phase": "N/A",
+        "status": "COMPLETED",
+        "summary": "To analyze existing data from the Physicians Health Study (PHS), a randomized primary prevention trial of low-dose aspirin and beta carotene conducted among 22,071 U.S. male physicians, to address questions concerning aspirin and cardiovascular (CV) disease that could not adequately be addressed during the randomized aspirin period.",
+        "pmids": [
+          "10761956",
+          "12034583"
+        ],
+        "relevance_score": 1.42,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT00222261",
+        "title": "Aspirin Non-responsiveness and Clopidogrel Endpoint Trial.",
+        "condition": "Coronary Heart Disease",
+        "phase": "PHASE4",
+        "status": "COMPLETED",
+        "summary": "In the ASCET study, 1000 patients with documented coronary heart disease will be randomized to either continued treatment with aspirin 160 mg/d or change to clopidogrel 75mg/d. Clinical endpoints will be recorded for at least 2 years and related to the initial aspirin response, assessed by the PFA-100® method, to investigate whether aspirin non-responders have higher composite event rate than responders or whether Clopidogrel treatment in patients non-responsive to aspirin will reduce their risk of future clinical events. The clinical events are the composite of unstable angina, myocardial infarction, stroke or death.",
+        "pmids": [
+          "11786451",
+          "7889440",
+          "1780803",
+          "11472699",
+          "7974569",
+          "9802142",
+          "12941050",
+          "12911581",
+          "8236166",
+          "11109035",
+          "12651041",
+          "8918275",
+          "12324552",
+          "12586130",
+          "15804802",
+          "36582742",
+          "36474435",
+          "29200971",
+          "23130135",
+          "22883224",
+          "22141572",
+          "21426546"
+        ],
+        "relevance_score": 1.25,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT04656665",
+        "title": "The Effectiveness of Aspirin on Preventing Pre-eclampsia",
+        "condition": "Pre-Eclampsia",
+        "phase": "PHASE4",
+        "status": "UNKNOWN",
+        "summary": "This study will explore the effectiveness of low-dose aspirin on preventing pre-eclampsia in high-risks pregnant women by comparing the incidence of pre-eclampsia and pregnancy outcomes.",
+        "pmids": [],
+        "relevance_score": 1.24,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT04990791",
+        "title": "WILL lOWer Dose Aspirin be Better With Rivaroxaban in Patients With Chronic Coronary Syndromes?",
+        "condition": "Coronary Syndrome",
+        "phase": "PHASE4",
+        "status": "COMPLETED",
+        "summary": "The trial is a pharmacodynamic study to determine the effect of a novel regimen of aspirin 20 mg BD plus rivaroxaban 2.5 mg BD on haemostasis, fibrin clot dynamics, inflammatory markers, platelet function and arachidonic acid metabolites when compared to standard regimens of aspirin 75 mg OD and aspirin 75 mg OD plus rivaroxaban 2.5 mg BD.",
+        "pmids": [
+          "23996286",
+          "31504439",
+          "28844192",
+          "29390064",
+          "29417256",
+          "28958334",
+          "8145785",
+          "19286636",
+          "28692111",
+          "26515417",
+          "28845751",
+          "23249161",
+          "29315404",
+          "18616754",
+          "30759035",
+          "25697550",
+          "23072449",
+          "12071582",
+          "4042087"
+        ],
+        "relevance_score": 1.17,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT04708587",
+        "title": "Appropriate Duration of Anti-Platelet straTegy in Patients With Advance Chronic Kidney Disease After New Generation Drug Eluting Stents (ADAPT-CKD)",
+        "condition": "Chronic Kidney Diseases",
+        "phase": "NA",
+        "status": "RECRUITING",
+        "summary": "The purpose of this prospective randomized clinical trial is to compare the clinical outcomes according to the duration of aspirin and clopidogrel or prasugrel with dual anti-platelet therapy after percutaneous coronary intervention in patients with advanced chronic kidney disease using a new generation drug eluting stents.",
+        "pmids": [],
+        "relevance_score": 1.16,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT06710184",
+        "title": "Treatment With Aspirin Alone Versus Aspirin in Combination With Fondaparinux Before Early Coronary Assessment in Patients With Non-ST-Elevation Myocardial Infarction",
+        "condition": "NSTEMI - Non-ST Segment Elevation Myocardial Infarction (MI)",
+        "phase": "PHASE4",
+        "status": "RECRUITING",
+        "summary": "The main goal of this study is to compare two treatments in patients with a specific type of heart attack called Non-ST-elevation Myocardial Infarction (NSTEMI). The investigators want to find out whether using aspirin alone is as effective and safer than using aspirin together with a second blood thinner called fondaparinux.",
+        "pmids": [
+          "38587239",
+          "21670242",
+          "8281698",
+          "7608429",
+          "3050522",
+          "2244556",
+          "16537663",
+          "10859038",
+          "8769591",
+          "22550377",
+          "20407625",
+          "25535411",
+          "10729375",
+          "24902976",
+          "25260718",
+          "37622654",
+          "40945808"
+        ],
+        "relevance_score": 1.14,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT06716255",
+        "title": "Comparison of Effects of Buffered and Enteric-coated Forms of Aspirin on Platelet Aggregation in Patients With Diabetes Mellitus and Chronic Coronary Syndrome",
+        "condition": "Diabetes Mellitus Type 2",
+        "phase": "N/A",
+        "status": "COMPLETED",
+        "summary": "Patients with diabetes mellitus are characterized by \"hyperreactive\" platelets and a reduced response to ASA compared to individuals without diabetes. ASA that is absorbed in the intestine is slower to enter the bloodstream and become therapeutic concentrations compared to ASA that is absorbed in the stomach. It seems rational to test the hypothesis that the use of buffered ASA may be more effective in patients with diabetes and chronic coronary syndrome (CCS).",
+        "pmids": [],
+        "relevance_score": 1.11,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT02733341",
+        "title": "The Effect of IV Cangrelor and Oral Ticagrelor Study",
+        "condition": "Acute Coronary Syndrome (ACS)",
+        "phase": "PHASE4",
+        "status": "COMPLETED",
+        "summary": "Major heart attacks are caused by a number of factors, the two major of which are furring up of a coronary artery with atheroma and then sudden clot formation on this area leading to a blockage and interruption of blood flow. The clots that lead to heart attacks are largely made of clotting blood cells (platelets) that in health repair blood vessels and inhibit spontaneous bleeding. One of the main treatment strategies for heart attacks is to make these cells less \"sticky\". Aspirin is a main stay of anti-platelet treatment in the United Kingdom (UK) and in addition one of three other oral antiplatelet agents acting on the same platelet activation pathway (P2Y12 receptor) is licensed for use. When a patient is admitted with a major heart attack, they are treated with emergency primary percutaneous coronary intervention (PPCI) a technique where a wire and balloon are used to reopen the coronary artery and then usually a stent (a slotted metal tube) is placed to keep the artery open. Aspirin and one of the P2Y12 inhibitor agents are given to prevent further clots and all have been shown to reduce negative events following heart attacks and angioplasty with stent insertion. There are increasing data, including from our own institution, showing that in the setting of heart attacks, the oral P2Y12 inhibitors are poorly absorbed and have little effect at the time of most need, i.e. soon after dosing while the primary PCI is being performed.",
+        "pmids": [
+          "31129911"
+        ],
+        "relevance_score": 1.11,
+        "drug_queried": "aspirin"
+      },
+      {
+        "trial_id": "NCT04805710",
+        "title": "Rivaroxaban or Aspirin in Patients With CHD & GD Undergoing PCI",
+        "condition": "Rivaroxaban",
+        "phase": "PHASE4",
+        "status": "UNKNOWN",
+        "summary": "The aim of this study is to assess the efficacy and safety of rivaroxaban or aspirin combined with clopidogrel in patients with coronary heart disease and gastrointestinal diseases undergoing PCI.",
+        "pmids": [],
+        "relevance_score": 1.05,
+        "drug_queried": "aspirin"
+      }
+    ],
+    "papers": [
+      {
+        "pmid": "41847750",
+        "paper_title": "Clopidogrel Versus Aspirin Monotherapy Beyond 1 Year After PCI: The Final 5-Year Results of the STOPDAPT-2 ACS and STOPDAPT-2 Total Cohort.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Clopidogrel may have ischemic benefit over aspirin as long-term monotherapy in patients receiving percutaneous coronary intervention. Both the STOPDAPT-2 (Short and Optimal Duration of Dual Antiplatel",
+        "confidence": 0.3
+      },
+      {
+        "pmid": "41846702",
+        "paper_title": "Acute Myocardial Infarction Secondary to Triple Vessel Coronary Artery Disease in a 31-year-old Female with Systemic Lupus Erythematosus: Case Report and Review of Literature.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Cardiovascular (CV) disease is the leading cause of mortality in systemic lupus erythematosus (SLE). The risk of myocardial infarction (MI) in SLE is twice the incidence and ten years earlier in onset",
+        "confidence": 0.3
+      },
+      {
+        "disease_associations": [
+          "pre-eclampsia"
+        ],
+        "mechanisms": [
+          "high blood pressure",
+          "proteinuria"
+        ],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Pre-eclampsia is a multisystem disorder affecting 2.8% of pregnancies in the UK.",
+        "confidence": 1.0,
+        "pmid": "41845444",
+        "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+      },
+      {
+        "disease_associations": [
+          "eclampsia",
+          "stroke",
+          "HELLP syndrome"
+        ],
+        "mechanisms": [
+          "high blood pressure",
+          "proteinuria"
+        ],
+        "drug_mentions": [],
+        "sentiment": "negative",
+        "evidence_snippet": "Complications include eclampsia, stroke, and HELLP syndrome for the mother and preterm birth, fetal growth restriction, and stillbirth for the baby.",
+        "confidence": 1.0,
+        "pmid": "41845444",
+        "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+      },
+      {
+        "disease_associations": [
+          "preterm birth",
+          "fetal growth restriction",
+          "stillbirth"
+        ],
+        "mechanisms": [
+          "high blood pressure",
+          "proteinuria"
+        ],
+        "drug_mentions": [],
+        "sentiment": "negative",
+        "evidence_snippet": "Complications include eclampsia, stroke, and HELLP syndrome for the mother and preterm birth, fetal growth restriction, and stillbirth for the baby.",
+        "confidence": 1.0,
+        "pmid": "41845444",
+        "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+      },
+      {
+        "disease_associations": [
+          "pre-eclampsia"
+        ],
+        "mechanisms": [
+          "calcium supplementation"
+        ],
+        "drug_mentions": [
+          "calcium supplementation"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "Previous studies have shown calcium supplementation may reduce the risk of pre-eclampsia, but findings are driven by large effects seen in small trials that have not been replicated in larger trials.",
+        "confidence": 0.5,
+        "pmid": "41845444",
+        "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+      },
+      {
+        "disease_associations": [
+          "pre-eclampsia"
+        ],
+        "mechanisms": [
+          "dietary calcium intake"
+        ],
+        "drug_mentions": [
+          "calcium supplementation"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "Subgroup analysis suggests benefits may only be seen in women with low dietary calcium intake, so findings may not be applicable to populations with adequate dietary calcium.",
+        "confidence": 0.5,
+        "pmid": "41845444",
+        "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+      },
+      {
+        "disease_associations": [
+          "Kawasaki disease"
+        ],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Fever was universal, with a median duration of 7.5 days.",
+        "confidence": 1.0,
+        "pmid": "41844557",
+        "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+      },
+      {
+        "disease_associations": [
+          "Kawasaki disease"
+        ],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Oral mucosal changes (68%) and rash (64%) were the most common clinical features.",
+        "confidence": 1.0,
+        "pmid": "41844557",
+        "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+      },
+      {
+        "disease_associations": [
+          "Kawasaki disease"
+        ],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Coronary artery abnormalities (CAAs) were detected in 33 children (66%), comprising coronary dilatation (12.1%), small aneurysms (54.6%), medium aneurysms (24.2%), and giant aneurysms (9.1%).",
+        "confidence": 1.0,
+        "pmid": "41844557",
+        "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+      },
+      {
+        "disease_associations": [
+          "Kawasaki disease"
+        ],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Younger age and prolonged fever (>7 days) were significantly associated with CAAs (P < 0.05),",
+        "confidence": 1.0,
+        "pmid": "41844557",
+        "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+      },
+      {
+        "pmid": "41844499",
+        "paper_title": "Healthcare Systems Data (HSD) to Improve the Efficiency of Clinical Trials Within the UK: A Prospectively Planned Comparison of HSD and Trial-Reported Outcomes Within the Add-Aspirin Cancer Clinical Trial.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Healthcare systems data (HSD) can potentially improve the efficiency and costs of clinical trials (CTs) and reduce the burden of follow-up. To be used in CTs, HSD need to be accessible, accurate and c",
+        "confidence": 0.3
+      },
+      {
+        "disease_associations": [
+          "cholelithiasis",
+          "hepatocellular injury"
+        ],
+        "mechanisms": [
+          "oxidative stress",
+          "restenosis"
+        ],
+        "drug_mentions": [
+          "ursodeoxycholic acid",
+          "aspirin"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "Biliary obstruction prevents normal flow of bile into the duodenum, resulting in the accumulation of hydrophobic bile acids.",
+        "confidence": 1.0,
+        "pmid": "41843985",
+        "paper_title": "Fabrication and characterization of a multilayered membrane for biliary stents enabling directional delivery of UDCA and aspirin."
+      },
+      {
+        "pmid": "41843676",
+        "paper_title": "Reprogrammed SimCells for antimicrobial therapy.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Antimicrobial resistance (AMR) is a critical global health challenge. In this study, we developed a platform based on chromosome-free and nonreplicating simple cells (SimCells, size 1 to 2 µm) and min",
+        "confidence": 0.3
+      },
+      {
+        "disease_associations": [
+          "hypertension",
+          "dyslipidemia"
+        ],
+        "mechanisms": [
+          "atherosclerotic stenosis"
+        ],
+        "drug_mentions": [
+          "clopidogrel",
+          "aspirin",
+          "rosuvastatin"
+        ],
+        "sentiment": "neutral",
+        "evidence_snippet": "A 65-year-old female with a history of hypertension and dyslipidemia presented with sudden-onset rotatory vertigo, headache, and right-sided paresthesia.",
+        "confidence": 1.0,
+        "pmid": "41841094",
+        "paper_title": "Small Pontine Infarction Secondary to Posterior Inferior Cerebellar Artery (PICA) Atherosclerosis: The Diagnostic Value of 3 Tesla MRI."
+      },
+      {
+        "pmid": "41841045",
+        "paper_title": "Bridging Technique with a Stent Retriever for Iatrogenic Internal Carotid Artery Occlusion during Coil Embolization of a Ruptured Aneurysm.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Iatrogenic arterial dissection is a rare complication in neuroendovascular procedures, with an incidence of 0.15%-0.4% in the cervical carotid artery. In ruptured aneurysm cases, preoperative antiplat",
+        "confidence": 0.3
+      },
+      {
+        "pmid": "41840984",
+        "paper_title": "Anticoagulation for Incident Atrial Fibrillation/Flutter Following Surgical Left Atrial Appendage Occlusion and CABG.",
+        "disease_associations": [],
+        "mechanisms": [],
+        "drug_mentions": [],
+        "sentiment": "neutral",
+        "evidence_snippet": "Surgical left atrial appendage occlusion (sLAAO) reduces stroke in patients with atrial fibrillation (AF), but its benefit in those without pre-existing AF, when performed prophylactically with cardia",
+        "confidence": 0.3
+      }
+    ],
+    "patents": [],
+    "approvals": [
+      "Relief of pain and fever",
+      "Reduction of risk of transient ischemic attacks and ischemic stroke in men",
+      "Reduction of risk of myocardial infarction in patients with unstable angina or prior infarction",
+      "Treatment of acute myocardial infarction",
+      "Reduction of risk of cardiovascular events in patients with chronic stable angina"
+    ]
+  },
+  "meta": {
+    "confidence": "medium",
+    "sources_used": [
+      "clinical",
+      "market",
+      "patent",
+      "regulatory",
+      "aggregator",
+      "literature"
+    ]
+  },
+  "agents": {
+    "clinical": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "molecule": "Aspirin",
+        "summary": {
+          "total_trials": 10,
+          "phases": {
+            "N/A": 3,
+            "PHASE4": 6,
+            "NA": 1
+          },
+          "statuses": {
+            "COMPLETED": 6,
+            "UNKNOWN": 2,
+            "RECRUITING": 2
+          },
+          "conditions": [
+            "Coronary Heart Disease",
+            "Rivaroxaban",
+            "Coronary Syndrome",
+            "Aspirin Resistance",
+            "Cardiovascular Diseases"
+          ],
+          "most_common_condition": "Aspirin Resistance"
+        },
+        "trials": [
+          {
+            "trial_id": "NCT01432652",
+            "title": "The Efficacy of Aspirin in the Postoperative Period in Vascular Surgery",
+            "condition": "Aspirin Resistance",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "summary": "The purpose of this study is to determine the incidence of aspirin resistance in the population of vascular surgery patients; and to evaluate the changes in the efficacy of aspirin in the first five postoperative days.",
+            "pmids": [],
+            "relevance_score": 1.43,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT00005493",
+            "title": "Observational Aspirin Use and CVD in the Physicians' Health Study",
+            "condition": "Cardiovascular Diseases",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "summary": "To analyze existing data from the Physicians Health Study (PHS), a randomized primary prevention trial of low-dose aspirin and beta carotene conducted among 22,071 U.S. male physicians, to address questions concerning aspirin and cardiovascular (CV) disease that could not adequately be addressed during the randomized aspirin period.",
+            "pmids": [
+              "10761956",
+              "12034583"
+            ],
+            "relevance_score": 1.42,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT00222261",
+            "title": "Aspirin Non-responsiveness and Clopidogrel Endpoint Trial.",
+            "condition": "Coronary Heart Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "summary": "In the ASCET study, 1000 patients with documented coronary heart disease will be randomized to either continued treatment with aspirin 160 mg/d or change to clopidogrel 75mg/d. Clinical endpoints will be recorded for at least 2 years and related to the initial aspirin response, assessed by the PFA-100® method, to investigate whether aspirin non-responders have higher composite event rate than responders or whether Clopidogrel treatment in patients non-responsive to aspirin will reduce their risk of future clinical events. The clinical events are the composite of unstable angina, myocardial infarction, stroke or death.",
+            "pmids": [
+              "11786451",
+              "7889440",
+              "1780803",
+              "11472699",
+              "7974569",
+              "9802142",
+              "12941050",
+              "12911581",
+              "8236166",
+              "11109035",
+              "12651041",
+              "8918275",
+              "12324552",
+              "12586130",
+              "15804802",
+              "36582742",
+              "36474435",
+              "29200971",
+              "23130135",
+              "22883224",
+              "22141572",
+              "21426546"
+            ],
+            "relevance_score": 1.25,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT04656665",
+            "title": "The Effectiveness of Aspirin on Preventing Pre-eclampsia",
+            "condition": "Pre-Eclampsia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "summary": "This study will explore the effectiveness of low-dose aspirin on preventing pre-eclampsia in high-risks pregnant women by comparing the incidence of pre-eclampsia and pregnancy outcomes.",
+            "pmids": [],
+            "relevance_score": 1.24,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT04990791",
+            "title": "WILL lOWer Dose Aspirin be Better With Rivaroxaban in Patients With Chronic Coronary Syndromes?",
+            "condition": "Coronary Syndrome",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "summary": "The trial is a pharmacodynamic study to determine the effect of a novel regimen of aspirin 20 mg BD plus rivaroxaban 2.5 mg BD on haemostasis, fibrin clot dynamics, inflammatory markers, platelet function and arachidonic acid metabolites when compared to standard regimens of aspirin 75 mg OD and aspirin 75 mg OD plus rivaroxaban 2.5 mg BD.",
+            "pmids": [
+              "23996286",
+              "31504439",
+              "28844192",
+              "29390064",
+              "29417256",
+              "28958334",
+              "8145785",
+              "19286636",
+              "28692111",
+              "26515417",
+              "28845751",
+              "23249161",
+              "29315404",
+              "18616754",
+              "30759035",
+              "25697550",
+              "23072449",
+              "12071582",
+              "4042087"
+            ],
+            "relevance_score": 1.17,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT04708587",
+            "title": "Appropriate Duration of Anti-Platelet straTegy in Patients With Advance Chronic Kidney Disease After New Generation Drug Eluting Stents (ADAPT-CKD)",
+            "condition": "Chronic Kidney Diseases",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "summary": "The purpose of this prospective randomized clinical trial is to compare the clinical outcomes according to the duration of aspirin and clopidogrel or prasugrel with dual anti-platelet therapy after percutaneous coronary intervention in patients with advanced chronic kidney disease using a new generation drug eluting stents.",
+            "pmids": [],
+            "relevance_score": 1.16,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT06710184",
+            "title": "Treatment With Aspirin Alone Versus Aspirin in Combination With Fondaparinux Before Early Coronary Assessment in Patients With Non-ST-Elevation Myocardial Infarction",
+            "condition": "NSTEMI - Non-ST Segment Elevation Myocardial Infarction (MI)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "summary": "The main goal of this study is to compare two treatments in patients with a specific type of heart attack called Non-ST-elevation Myocardial Infarction (NSTEMI). The investigators want to find out whether using aspirin alone is as effective and safer than using aspirin together with a second blood thinner called fondaparinux.",
+            "pmids": [
+              "38587239",
+              "21670242",
+              "8281698",
+              "7608429",
+              "3050522",
+              "2244556",
+              "16537663",
+              "10859038",
+              "8769591",
+              "22550377",
+              "20407625",
+              "25535411",
+              "10729375",
+              "24902976",
+              "25260718",
+              "37622654",
+              "40945808"
+            ],
+            "relevance_score": 1.14,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT06716255",
+            "title": "Comparison of Effects of Buffered and Enteric-coated Forms of Aspirin on Platelet Aggregation in Patients With Diabetes Mellitus and Chronic Coronary Syndrome",
+            "condition": "Diabetes Mellitus Type 2",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "summary": "Patients with diabetes mellitus are characterized by \"hyperreactive\" platelets and a reduced response to ASA compared to individuals without diabetes. ASA that is absorbed in the intestine is slower to enter the bloodstream and become therapeutic concentrations compared to ASA that is absorbed in the stomach. It seems rational to test the hypothesis that the use of buffered ASA may be more effective in patients with diabetes and chronic coronary syndrome (CCS).",
+            "pmids": [],
+            "relevance_score": 1.11,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT02733341",
+            "title": "The Effect of IV Cangrelor and Oral Ticagrelor Study",
+            "condition": "Acute Coronary Syndrome (ACS)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "summary": "Major heart attacks are caused by a number of factors, the two major of which are furring up of a coronary artery with atheroma and then sudden clot formation on this area leading to a blockage and interruption of blood flow. The clots that lead to heart attacks are largely made of clotting blood cells (platelets) that in health repair blood vessels and inhibit spontaneous bleeding. One of the main treatment strategies for heart attacks is to make these cells less \"sticky\". Aspirin is a main stay of anti-platelet treatment in the United Kingdom (UK) and in addition one of three other oral antiplatelet agents acting on the same platelet activation pathway (P2Y12 receptor) is licensed for use. When a patient is admitted with a major heart attack, they are treated with emergency primary percutaneous coronary intervention (PPCI) a technique where a wire and balloon are used to reopen the coronary artery and then usually a stent (a slotted metal tube) is placed to keep the artery open. Aspirin and one of the P2Y12 inhibitor agents are given to prevent further clots and all have been shown to reduce negative events following heart attacks and angioplasty with stent insertion. There are increasing data, including from our own institution, showing that in the setting of heart attacks, the oral P2Y12 inhibitors are poorly absorbed and have little effect at the time of most need, i.e. soon after dosing while the primary PCI is being performed.",
+            "pmids": [
+              "31129911"
+            ],
+            "relevance_score": 1.11,
+            "drug_queried": "aspirin"
+          },
+          {
+            "trial_id": "NCT04805710",
+            "title": "Rivaroxaban or Aspirin in Patients With CHD & GD Undergoing PCI",
+            "condition": "Rivaroxaban",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "summary": "The aim of this study is to assess the efficacy and safety of rivaroxaban or aspirin combined with clopidogrel in patients with coronary heart disease and gastrointestinal diseases undergoing PCI.",
+            "pmids": [],
+            "relevance_score": 1.05,
+            "drug_queried": "aspirin"
+          }
+        ],
+        "total_trials_found": 10
+      }
+    },
+    "literature": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "status": "success",
+        "papers_analyzed": 10,
+        "findings_extracted": 17,
+        "findings": [
+          {
+            "pmid": "41847750",
+            "paper_title": "Clopidogrel Versus Aspirin Monotherapy Beyond 1 Year After PCI: The Final 5-Year Results of the STOPDAPT-2 ACS and STOPDAPT-2 Total Cohort.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Clopidogrel may have ischemic benefit over aspirin as long-term monotherapy in patients receiving percutaneous coronary intervention. Both the STOPDAPT-2 (Short and Optimal Duration of Dual Antiplatel",
+            "confidence": 0.3
+          },
+          {
+            "pmid": "41846702",
+            "paper_title": "Acute Myocardial Infarction Secondary to Triple Vessel Coronary Artery Disease in a 31-year-old Female with Systemic Lupus Erythematosus: Case Report and Review of Literature.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Cardiovascular (CV) disease is the leading cause of mortality in systemic lupus erythematosus (SLE). The risk of myocardial infarction (MI) in SLE is twice the incidence and ten years earlier in onset",
+            "confidence": 0.3
+          },
+          {
+            "disease_associations": [
+              "pre-eclampsia"
+            ],
+            "mechanisms": [
+              "high blood pressure",
+              "proteinuria"
+            ],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Pre-eclampsia is a multisystem disorder affecting 2.8% of pregnancies in the UK.",
+            "confidence": 1.0,
+            "pmid": "41845444",
+            "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+          },
+          {
+            "disease_associations": [
+              "eclampsia",
+              "stroke",
+              "HELLP syndrome"
+            ],
+            "mechanisms": [
+              "high blood pressure",
+              "proteinuria"
+            ],
+            "drug_mentions": [],
+            "sentiment": "negative",
+            "evidence_snippet": "Complications include eclampsia, stroke, and HELLP syndrome for the mother and preterm birth, fetal growth restriction, and stillbirth for the baby.",
+            "confidence": 1.0,
+            "pmid": "41845444",
+            "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+          },
+          {
+            "disease_associations": [
+              "preterm birth",
+              "fetal growth restriction",
+              "stillbirth"
+            ],
+            "mechanisms": [
+              "high blood pressure",
+              "proteinuria"
+            ],
+            "drug_mentions": [],
+            "sentiment": "negative",
+            "evidence_snippet": "Complications include eclampsia, stroke, and HELLP syndrome for the mother and preterm birth, fetal growth restriction, and stillbirth for the baby.",
+            "confidence": 1.0,
+            "pmid": "41845444",
+            "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+          },
+          {
+            "disease_associations": [
+              "pre-eclampsia"
+            ],
+            "mechanisms": [
+              "calcium supplementation"
+            ],
+            "drug_mentions": [
+              "calcium supplementation"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "Previous studies have shown calcium supplementation may reduce the risk of pre-eclampsia, but findings are driven by large effects seen in small trials that have not been replicated in larger trials.",
+            "confidence": 0.5,
+            "pmid": "41845444",
+            "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+          },
+          {
+            "disease_associations": [
+              "pre-eclampsia"
+            ],
+            "mechanisms": [
+              "dietary calcium intake"
+            ],
+            "drug_mentions": [
+              "calcium supplementation"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "Subgroup analysis suggests benefits may only be seen in women with low dietary calcium intake, so findings may not be applicable to populations with adequate dietary calcium.",
+            "confidence": 0.5,
+            "pmid": "41845444",
+            "paper_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)."
+          },
+          {
+            "disease_associations": [
+              "Kawasaki disease"
+            ],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Fever was universal, with a median duration of 7.5 days.",
+            "confidence": 1.0,
+            "pmid": "41844557",
+            "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+          },
+          {
+            "disease_associations": [
+              "Kawasaki disease"
+            ],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Oral mucosal changes (68%) and rash (64%) were the most common clinical features.",
+            "confidence": 1.0,
+            "pmid": "41844557",
+            "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+          },
+          {
+            "disease_associations": [
+              "Kawasaki disease"
+            ],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Coronary artery abnormalities (CAAs) were detected in 33 children (66%), comprising coronary dilatation (12.1%), small aneurysms (54.6%), medium aneurysms (24.2%), and giant aneurysms (9.1%).",
+            "confidence": 1.0,
+            "pmid": "41844557",
+            "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+          },
+          {
+            "disease_associations": [
+              "Kawasaki disease"
+            ],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Younger age and prolonged fever (>7 days) were significantly associated with CAAs (P < 0.05),",
+            "confidence": 1.0,
+            "pmid": "41844557",
+            "paper_title": "Prolonged Fever as a Predictor of Coronary Artery Aneurysms Among Children With Kawasaki Disease in North India."
+          },
+          {
+            "pmid": "41844499",
+            "paper_title": "Healthcare Systems Data (HSD) to Improve the Efficiency of Clinical Trials Within the UK: A Prospectively Planned Comparison of HSD and Trial-Reported Outcomes Within the Add-Aspirin Cancer Clinical Trial.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Healthcare systems data (HSD) can potentially improve the efficiency and costs of clinical trials (CTs) and reduce the burden of follow-up. To be used in CTs, HSD need to be accessible, accurate and c",
+            "confidence": 0.3
+          },
+          {
+            "disease_associations": [
+              "cholelithiasis",
+              "hepatocellular injury"
+            ],
+            "mechanisms": [
+              "oxidative stress",
+              "restenosis"
+            ],
+            "drug_mentions": [
+              "ursodeoxycholic acid",
+              "aspirin"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "Biliary obstruction prevents normal flow of bile into the duodenum, resulting in the accumulation of hydrophobic bile acids.",
+            "confidence": 1.0,
+            "pmid": "41843985",
+            "paper_title": "Fabrication and characterization of a multilayered membrane for biliary stents enabling directional delivery of UDCA and aspirin."
+          },
+          {
+            "pmid": "41843676",
+            "paper_title": "Reprogrammed SimCells for antimicrobial therapy.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Antimicrobial resistance (AMR) is a critical global health challenge. In this study, we developed a platform based on chromosome-free and nonreplicating simple cells (SimCells, size 1 to 2 µm) and min",
+            "confidence": 0.3
+          },
+          {
+            "disease_associations": [
+              "hypertension",
+              "dyslipidemia"
+            ],
+            "mechanisms": [
+              "atherosclerotic stenosis"
+            ],
+            "drug_mentions": [
+              "clopidogrel",
+              "aspirin",
+              "rosuvastatin"
+            ],
+            "sentiment": "neutral",
+            "evidence_snippet": "A 65-year-old female with a history of hypertension and dyslipidemia presented with sudden-onset rotatory vertigo, headache, and right-sided paresthesia.",
+            "confidence": 1.0,
+            "pmid": "41841094",
+            "paper_title": "Small Pontine Infarction Secondary to Posterior Inferior Cerebellar Artery (PICA) Atherosclerosis: The Diagnostic Value of 3 Tesla MRI."
+          },
+          {
+            "pmid": "41841045",
+            "paper_title": "Bridging Technique with a Stent Retriever for Iatrogenic Internal Carotid Artery Occlusion during Coil Embolization of a Ruptured Aneurysm.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Iatrogenic arterial dissection is a rare complication in neuroendovascular procedures, with an incidence of 0.15%-0.4% in the cervical carotid artery. In ruptured aneurysm cases, preoperative antiplat",
+            "confidence": 0.3
+          },
+          {
+            "pmid": "41840984",
+            "paper_title": "Anticoagulation for Incident Atrial Fibrillation/Flutter Following Surgical Left Atrial Appendage Occlusion and CABG.",
+            "disease_associations": [],
+            "mechanisms": [],
+            "drug_mentions": [],
+            "sentiment": "neutral",
+            "evidence_snippet": "Surgical left atrial appendage occlusion (sLAAO) reduces stroke in patients with atrial fibrillation (AF), but its benefit in those without pre-existing AF, when performed prophylactically with cardia",
+            "confidence": 0.3
+          }
+        ]
+      }
+    },
+    "patent": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "molecule": "Aspirin",
+        "patent_status": "Unknown",
+        "expiry_year": "Unknown",
+        "commercial_freedom": "High",
+        "detailed_analysis": {
+          "patent_summary": {
+            "total_patents_found": "0",
+            "major_assignees": [],
+            "patent_types_distribution": {}
+          },
+          "expiry_analysis": {
+            "core_patent_status": "Unknown",
+            "earliest_expiry": "Unknown",
+            "latest_expiry": "Unknown"
+          },
+          "repurposing_feasibility": {
+            "freedom_to_operate": "High",
+            "reasoning": "No patents found for this molecule in the database. This suggests freedom to operate, but verify with a comprehensive search."
+          },
+          "opportunity_signals": [
+            "No patent barriers identified"
+          ],
+          "risk_factors": [
+            "Limited patent data available - manual verification recommended"
+          ],
+          "citations": []
+        }
+      }
+    },
+    "regulatory": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "success": true,
+        "data": {
+          "drug": "aspirin",
+          "approved_indications": [
+            "Relief of pain and fever",
+            "Reduction of risk of transient ischemic attacks and ischemic stroke in men",
+            "Reduction of risk of myocardial infarction in patients with unstable angina or prior infarction",
+            "Treatment of acute myocardial infarction",
+            "Reduction of risk of cardiovascular events in patients with chronic stable angina"
+          ],
+          "warnings": [
+            "Reye's syndrome: should not be used in children or teenagers for viral infections",
+            "Risk of bleeding, including gastrointestinal bleeding",
+            "Avoid in patients with active peptic ulcer disease",
+            "May cause severe allergic reactions including anaphylaxis"
+          ],
+          "contradictions": [
+            "Hypersensitivity to aspirin or NSAIDs",
+            "History of asthma, urticaria, or allergic reactions",
+            "Children with viral infections (due to Reye's syndrome risk)",
+            "Active bleeding disorders",
+            "Severe hepatic impairment"
+          ],
+          "adverse_events": [
+            "Gastrointestinal irritation (most common)",
+            "Nausea (most common)",
+            "Dyspepsia (most common)",
+            "Gastrointestinal bleeding (serious)",
+            "Hemorrhagic stroke (serious)",
+            "Anaphylactic reactions (serious)",
+            "Tinnitus at high doses",
+            "Hepatic dysfunction"
+          ],
+          "regulatory_summary": "",
+          "confidence": 0.8515808351412415,
+          "sources": [
+            "FDA Label - Atorvastatin",
+            "FDA Label - Metformin",
+            "FDA Label - Aspirin",
+            "FDA Label - Ibuprofen"
+          ],
+          "retrieval_metadata": {
+            "chunks_retrieved": 8,
+            "sections_found": [
+              "warnings",
+              "adverse",
+              "contradictions",
+              "indications"
+            ],
+            "query_expansion": [
+              "aspirin label fda",
+              "aspirin approved indications",
+              "aspirin warnings precautions"
+            ]
+          }
+        },
+        "error": null
+      }
+    },
+    "market": {
+      "status": "success",
+      "error": null,
+      "response": {
+        "disease": "pain relief",
+        "market_potential": "High",
+        "global_prevalence": "Unknown",
+        "market_growth": "Unknown",
+        "detailed_analysis": {
+          "disease": "pain relief",
+          "market_summary": "pain relief shows relevant disease-burden and health-system signals in the retrieved data. Healthcare expenditure indicators from WHO and World Bank suggest where payer capacity may support new therapies, while any disease-specific prevalence rows highlight the potential patient pool. Taken together, these signals can be used as an early proxy for treatment market attractiveness.",
+          "key_statistics": [
+            "Disease: pain relief. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Least developed countries: UN classification. Year: 2021. Value: 48.1863019536304. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+            "Disease: pain relief. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Latin America & the Caribbean (IDA & IBRD countries). Year: 2022. Value: 731.083036553733. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+            "Disease: pain relief. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Fragile and conflict affected situations. Year: 2021. Value: 82.7020795183441. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing."
+          ],
+          "sources": [
+            "World Bank"
+          ]
+        }
+      }
+    }
+  }
+}
