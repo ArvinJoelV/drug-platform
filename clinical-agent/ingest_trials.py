@@ -2,21 +2,25 @@ import sys
 import chromadb
 from sentence_transformers import SentenceTransformer
 from clinical_api import fetch_trials
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def ingest(drug: str) -> bool:
-    print(f"Fetching trials for '{drug}'...")
+    logger.info(f"Fetching trials for '{drug}'...")
     trials = fetch_trials(drug)
     if not trials:
-        print("No trials found.")
+        logger.warning(f"No trials found for {drug}")
         return False
 
-    print(f"Found {len(trials)} trials. Initializing Chromadb...")
+    logger.info(f"Found {len(trials)} trials. Initializing Chromadb...")
     
     # Initialize Persistent ChromaDB
     chroma_client = chromadb.PersistentClient(path="./chroma_db")
     collection = chroma_client.get_or_create_collection(name="clinical_trials")
     
-    print("Loading embedding model (all-MiniLM-L6-v2)...")
+    logger.info("Loading embedding model (all-MiniLM-L6-v2)...")
     model = SentenceTransformer("all-MiniLM-L6-v2")
     
     documents = []
@@ -40,7 +44,7 @@ def ingest(drug: str) -> bool:
         )
         ids.append(trial["trial_id"])
         
-    print("Creating embeddings and storing in database...")
+    logger.info("Creating embeddings and storing in database...")
     embeddings = model.encode(documents).tolist()
     
     collection.upsert(
@@ -50,7 +54,7 @@ def ingest(drug: str) -> bool:
         metadatas=metadatas
     )
     
-    print("Ingestion complete. Database is ready for queries.")
+    logger.info(f"Ingestion complete for {drug}. {len(trials)} trials stored.")
     return True
 
 if __name__ == "__main__":

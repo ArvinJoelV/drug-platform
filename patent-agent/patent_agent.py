@@ -12,7 +12,7 @@ class PatentAnalysisAgent:
     def __init__(self):
         self.today = datetime.date.today()
         # Initialize Groq Client
-        self.groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
         
         # Initialize ChromaDB (in-memory for this script, but can be persistent)
         self.chroma_client = chromadb.Client()
@@ -50,7 +50,14 @@ class PatentAnalysisAgent:
         with open(json_filepath, 'r') as f:
             data = json.load(f)
             
-        patents = data.get("patents", [])
+        # Handle both list format and dict format with "patents" key
+        if isinstance(data, list):
+            patents = data
+            # Wrap list in expected dictionary format
+            data = {"molecule": "Unknown Molecule", "patents": patents}
+        else:
+            patents = data.get("patents", [])
+        
         if not patents:
             return data
             

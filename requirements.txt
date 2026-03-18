@@ -4,4 +4,6 @@ langchain
 chromadb
 sentence-transformers
 openai
-
+biopython
+groq
+python-dotenv
