@@ -7,3 +7,4 @@ openai
 biopython
 groq
 python-dotenv
+google-genai

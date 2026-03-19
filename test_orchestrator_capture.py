@@ -5,7 +5,6 @@ from pathlib import Path
 
 import requests
 
-
 def build_output_path(molecule: str, output: str | None) -> Path:
     if output:
         return Path(output)
@@ -26,7 +25,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--url",
-        default="http://localhost:8000/orchestrate",
+        default="http://localhost:8000/analyze",
         help="Orchestrator endpoint URL.",
     )
     parser.add_argument(

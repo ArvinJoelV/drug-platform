@@ -4,3 +4,5 @@ langgraph
 langchain-core
 pydantic
 httpx
+google-genai
+python-dotenv

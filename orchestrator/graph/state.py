@@ -16,6 +16,7 @@ class OrchestratorState(TypedDict):
     Shared state for the Orchestrator LangGraph execution.
     """
     molecule: str
+    analysis_id: Optional[str]
     
     # Store data from each agent
     clinical_data: Optional[Dict[str, Any]]
@@ -23,6 +24,12 @@ class OrchestratorState(TypedDict):
     patent_data: Optional[Dict[str, Any]]
     regulatory_data: Optional[Dict[str, Any]]
     market_data: Optional[Dict[str, Any]]
+    
+    # Unified and derived outputs
+    aggregated_report: Optional[Dict[str, Any]]
+    intelligence_data: Optional[Dict[str, Any]]
+    regulatory_postcheck: Optional[Dict[str, Any]]
+    llm_report: Optional[Dict[str, Any]]
     
     # Final deterministic output
     final_report: Optional[Dict[str, Any]]

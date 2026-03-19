@@ -17,8 +17,9 @@ def _agent_payload(
     }
 
 
-def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
+def build_final_report(state: OrchestratorState, include_derived: bool = True) -> Dict[str, Any]:
     molecule = state.get("molecule", "Unknown")
+    analysis_id = state.get("analysis_id")
     
     # Extract data safely with fallbacks
     c_data = state.get("clinical_data") or {}
@@ -29,7 +30,11 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
     
     # Calculate successful source list
     status_dict = state.get("status", {})
-    sources_used = [node for node, status in status_dict.items() if status == "success"]
+    source_nodes = {"clinical", "literature", "patent", "regulatory", "market"}
+    sources_used = [
+        node for node, status in status_dict.items()
+        if node in source_nodes and status == "success"
+    ]
 
     agent_responses = {
         "clinical": _agent_payload(state, "clinical", "clinical_data"),
@@ -41,6 +46,7 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
 
     # Produce the cross-domain structured dictionary
     report = {
+        "analysis_id": analysis_id,
         "molecule": molecule,
         "summary": {
             "clinical_signal": c_data.get("summary", {}).get("most_common_condition", "No clinical summary available.") if isinstance(c_data.get("summary"), dict) else c_data.get("summary", "No clinical summary available."),
@@ -53,7 +59,15 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
             "clinical_trials": c_data.get("trials", []),
             "papers": l_data.get("findings", []),
             "patents": p_data.get("detailed_analysis", {}).get("citations", []),
-            "approvals": r_data.get("data", {}).get("approved_indications", []) if isinstance(r_data.get("data"), dict) else []
+            "approvals": r_data.get("data", {}).get("approved_indications", []) if isinstance(r_data.get("data"), dict) else [],
+            "regulatory": r_data.get("data", {}) if isinstance(r_data.get("data"), dict) else {},
+            "market": {
+                "disease": m_data.get("disease"),
+                "market_potential": m_data.get("market_potential"),
+                "global_prevalence": m_data.get("global_prevalence"),
+                "market_growth": m_data.get("market_growth"),
+                "key_statistics": m_data.get("detailed_analysis", {}).get("key_statistics", []),
+            },
         },
         "meta": {
             "confidence": "medium",  # placeholder, can build heuristic later
@@ -61,5 +75,13 @@ def build_final_report(state: OrchestratorState) -> Dict[str, Any]:
         },
         "agents": agent_responses,
     }
+
+    if include_derived:
+        intelligence = state.get("intelligence_data") or {}
+        report["intelligence"] = intelligence
+        report["llm_report"] = state.get("llm_report") or {}
+        report["meta"]["confidence"] = intelligence.get("confidence_breakdown", {}).get("global_confidence", "medium")
+        if state.get("regulatory_postcheck"):
+            report["meta"]["regulatory_postcheck"] = state["regulatory_postcheck"]
     
     return report
