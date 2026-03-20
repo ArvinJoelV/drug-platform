@@ -20,6 +20,8 @@ def _agent_payload(
 def build_final_report(state: OrchestratorState, include_derived: bool = True) -> Dict[str, Any]:
     molecule = state.get("molecule", "Unknown")
     analysis_id = state.get("analysis_id")
+    mechanism_context = state.get("mechanism_context") or {}
+    contradictions = state.get("contradictions") or {}
     
     # Extract data safely with fallbacks
     c_data = state.get("clinical_data") or {}
@@ -48,12 +50,14 @@ def build_final_report(state: OrchestratorState, include_derived: bool = True) -
     report = {
         "analysis_id": analysis_id,
         "molecule": molecule,
+        "mechanism_context": mechanism_context,
         "summary": {
             "clinical_signal": c_data.get("summary", {}).get("most_common_condition", "No clinical summary available.") if isinstance(c_data.get("summary"), dict) else c_data.get("summary", "No clinical summary available."),
             "literature_signal": "Success" if l_data.get("status") == "success" else "No literature signal available.",
             "patent_status": p_data.get("patent_status", "No patent status available."),
             "regulatory_status": r_data.get("data", {}).get("regulatory_summary", "No regulatory summary") if isinstance(r_data.get("data"), dict) else "No regulatory data",
-            "market_signal": m_data.get("market_potential", "No market signal available.")
+            "market_signal": m_data.get("market_potential", "No market signal available."),
+            "mechanism_signal": mechanism_context.get("primary_target") or "No mechanism context available.",
         },
         "evidence": {
             "clinical_trials": c_data.get("trials", []),
@@ -68,6 +72,7 @@ def build_final_report(state: OrchestratorState, include_derived: bool = True) -
                 "market_growth": m_data.get("market_growth"),
                 "key_statistics": m_data.get("detailed_analysis", {}).get("key_statistics", []),
             },
+            "mechanism": mechanism_context,
         },
         "meta": {
             "confidence": "medium",  # placeholder, can build heuristic later
@@ -77,10 +82,12 @@ def build_final_report(state: OrchestratorState, include_derived: bool = True) -
     }
 
     if include_derived:
-        intelligence = state.get("intelligence_data") or {}
+        intelligence = state.get("reviewed_intelligence_data") or state.get("intelligence_data") or {}
         report["intelligence"] = intelligence
+        report["contradictions"] = contradictions
         report["llm_report"] = state.get("llm_report") or {}
         report["meta"]["confidence"] = intelligence.get("confidence_breakdown", {}).get("global_confidence", "medium")
+        report["meta"]["contradiction_risk"] = contradictions.get("summary", {}).get("risk_level", "low")
         if state.get("regulatory_postcheck"):
             report["meta"]["regulatory_postcheck"] = state["regulatory_postcheck"]
     

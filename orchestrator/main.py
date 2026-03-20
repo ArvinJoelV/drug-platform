@@ -71,6 +71,7 @@ async def get_analysis_summary(analysis_id: str):
     return {
         "analysis_id": analysis_id,
         "molecule": result.get("molecule", record.get("molecule")),
+        "mechanism_context": result.get("mechanism_context", {}),
         "summary": result.get("summary", {}),
         "meta": result.get("meta", {}),
     }
@@ -95,6 +96,20 @@ async def get_analysis_intelligence(analysis_id: str):
         "analysis_id": analysis_id,
         "molecule": result.get("molecule", record.get("molecule")),
         "intelligence": result.get("intelligence", {}),
+        "contradictions": result.get("contradictions", {}),
+        "mechanism_context": result.get("mechanism_context", {}),
+    }
+
+
+@app.get("/analysis/{analysis_id}/contradictions")
+async def get_analysis_contradictions(analysis_id: str):
+    record = _get_record_or_404(analysis_id)
+    result = record.get("result") or {}
+    return {
+        "analysis_id": analysis_id,
+        "molecule": result.get("molecule", record.get("molecule")),
+        "mechanism_context": result.get("mechanism_context", {}),
+        "contradictions": result.get("contradictions", {}),
     }
 
 

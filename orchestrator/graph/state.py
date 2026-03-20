@@ -17,6 +17,7 @@ class OrchestratorState(TypedDict):
     """
     molecule: str
     analysis_id: Optional[str]
+    mechanism_context: Optional[Dict[str, Any]]
     
     # Store data from each agent
     clinical_data: Optional[Dict[str, Any]]
@@ -28,6 +29,8 @@ class OrchestratorState(TypedDict):
     # Unified and derived outputs
     aggregated_report: Optional[Dict[str, Any]]
     intelligence_data: Optional[Dict[str, Any]]
+    reviewed_intelligence_data: Optional[Dict[str, Any]]
+    contradictions: Optional[Dict[str, Any]]
     regulatory_postcheck: Optional[Dict[str, Any]]
     llm_report: Optional[Dict[str, Any]]
     

@@ -28,6 +28,7 @@ def normalize_signals(state: Dict[str, Any]) -> Dict[str, Any]:
     patent_data = state.get("patent_data") or {}
     regulatory_data = state.get("regulatory_data") or {}
     market_data = state.get("market_data") or {}
+    mechanism_context = state.get("mechanism_context") or {}
 
     trials = clinical_data.get("trials", []) or []
     findings = literature_data.get("findings", []) or []
@@ -66,6 +67,14 @@ def normalize_signals(state: Dict[str, Any]) -> Dict[str, Any]:
     ]
 
     return {
+        "mechanism": {
+            "primary_target": _clean_value(mechanism_context.get("primary_target")),
+            "primary_action": _clean_value(mechanism_context.get("primary_action")),
+            "targets": mechanism_context.get("targets", []) or [],
+            "pathways": mechanism_context.get("pathways", []) or [],
+            "confidence": mechanism_context.get("confidence", 0.0),
+            "query_terms": mechanism_context.get("query_terms", []) or [],
+        },
         "clinical": {
             "diseases": _counter_to_ranked_list(clinical_diseases),
             "trial_strength": len(trials),

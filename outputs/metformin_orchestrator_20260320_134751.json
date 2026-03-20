@@ -1,0 +1,1382 @@
+﻿{
+    "analysis_id":  "1006f78a-526d-4b5d-b527-e97d3633b8f3",
+    "molecule":  "Metformin",
+    "mechanism_context":  {
+                              "primary_target":  "AMPK",
+                              "primary_action":  "activation",
+                              "targets":  [
+                                              {
+                                                  "name":  "AMPK",
+                                                  "action":  "activation",
+                                                  "confidence":  0.92
+                                              },
+                                              {
+                                                  "name":  "mTOR",
+                                                  "action":  "indirect inhibition",
+                                                  "confidence":  0.66
+                                              },
+                                              {
+                                                  "name":  "Mitochondrial Complex I",
+                                                  "action":  "inhibition",
+                                                  "confidence":  0.7
+                                              }
+                                          ],
+                              "mechanism_class":  "metabolic modulator",
+                              "pathways":  [
+                                               "AMPK signaling",
+                                               "mTOR signaling",
+                                               "glucose metabolism"
+                                           ],
+                              "query_terms":  [
+                                                  "AMPK",
+                                                  "activation",
+                                                  "mTOR",
+                                                  "glucose metabolism"
+                                              ],
+                              "confidence":  0.86,
+                              "source":  "curated_lookup",
+                              "molecule":  "Metformin",
+                              "resolved":  true
+                          },
+    "summary":  {
+                    "clinical_signal":  "Diabetes",
+                    "literature_signal":  "Success",
+                    "patent_status":  "Unknown",
+                    "regulatory_status":  "Metformin is indicated for the management of type 2 diabetes in both adult and pediatric populations as an adjunct to lifestyle changes. Its regulatory profile emphasizes monitoring of renal function, as it is contraindicated in patients with significant renal impairment or metabolic acidosis. Common adverse effects are primarily gastrointestinal in nature and typically occur during the start of treatment.",
+                    "market_signal":  "High",
+                    "mechanism_signal":  "AMPK"
+                },
+    "evidence":  {
+                     "clinical_trials":  [
+                                             {
+                                                 "trial_id":  "NCT06727838",
+                                                 "title":  "Study on Drug Interaction of Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+                                                 "condition":  "Diabetes",
+                                                 "phase":  "PHASE1",
+                                                 "status":  "NOT_YET_RECRUITING",
+                                                 "summary":  "This study was a single-center, open, fixed-sequence, self-controlled trial design conducted in healthy subjects.",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.61,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT00745433",
+                                                 "title":  "Switch From Metformin Monotherapy to a Bitherapy With Metformin and Repaglinide",
+                                                 "condition":  "Diabetes",
+                                                 "phase":  "N/A",
+                                                 "status":  "COMPLETED",
+                                                 "summary":  "This study is conducted in Europe. The aim of this observational study is to investigate the efficacy (e.g. glycemic control) and safety (e.g. hypoglycemic episodes) when adding repaglinide to a monotherapy of metformin in type 2 diabetic patients under normal clinical practice",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.38,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT01478308",
+                                                 "title":  "Metformin With Standard Taxotere and Prednisone in the Treatment of Castration Resistant Prostate Cancer",
+                                                 "condition":  "Prostate Cancer",
+                                                 "phase":  "PHASE2",
+                                                 "status":  "WITHDRAWN",
+                                                 "summary":  "This study is being conducted to determine the effectiveness of standard 3 weekly treatments using docetaxel and prednisone with metformin in patients with castration-resistant metastatic prostate cancer.",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.32,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT00860288",
+                                                 "title":  "Efficacy and Long-Term Safety of Vildagliptin as Add-on Therapy to Metformin in Patients With Type 2 Diabetes",
+                                                 "condition":  "Diabetes Mellitus, Type 2",
+                                                 "phase":  "PHASE2",
+                                                 "status":  "COMPLETED",
+                                                 "summary":  "This is a 2-3 period parallel group study with an adaptive element in Type 2 diabetes patients receiving vildagliptin as add-on therapy to metformin",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.31,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT02457286",
+                                                 "title":  "Improving Insulin Resistance To Treat Non-Alcoholic Fatty Liver Disease: A Pilot Study",
+                                                 "condition":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                 "phase":  "PHASE1",
+                                                 "status":  "WITHDRAWN",
+                                                 "summary":  "Metformin is being compared to exercise and diet modifications. The researchers are interested in learning if the addition of metformin to lifestyle modifications is more helpful in treating the condition or disorder. Although metformin is FDA approved to treat type 2 diabetes, it is not FDA approved for the treatment of Non-alcoholic fatty liver (NAFLD) and is considered investigational for the purpose of this study.",
+                                                 "pmids":  [
+                                                               "22374640",
+                                                               "19533014",
+                                                               "15895401",
+                                                               "19293782",
+                                                               "18839053",
+                                                               "18366995"
+                                                           ],
+                                                 "relevance_score":  1.29,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT00376038",
+                                                 "title":  "Drug Interactions From Simultaneous Administration Of Metformin And GSK189075 To Subjects With Type 2 Diabetes",
+                                                 "condition":  "Type 2 Diabetes Mellitus",
+                                                 "phase":  "PHASE1",
+                                                 "status":  "COMPLETED",
+                                                 "summary":  "GSK189075 is intended for use as a single treatment or in combination with other treatments for tye 2 diabetes mellitus (T2DM). Metformin is widely used in Europe and the USA for the treatment of T2DM. This study will evaluate the effect of GSK189075 on metformin levels in the blood in T2DM subjects. The rationale is to look for any safety problems that may result when the 2 drugs are given together.",
+                                                 "pmids":  [
+                                                               "23631443"
+                                                           ],
+                                                 "relevance_score":  1.23,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT01831661",
+                                                 "title":  "Bioequivalence Study of Metformin Hydrochloride Extended-Release Tablets USP 750 mg Under Fasting Condition",
+                                                 "condition":  "Fasting",
+                                                 "phase":  "PHASE1",
+                                                 "status":  "COMPLETED",
+                                                 "summary":  "The study was a randomized, open label, two-treatment, two-period, two-sequence, single dose, crossover, oral bioequivalence study in normal, healthy adult human subjects under fasting condition.",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.22,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT06495931",
+                                                 "title":  "Study on Drug Interaction of HRS-1780 Tablets, Henagliflozin Tablets, Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+                                                 "condition":  "Type 2 Diabetes Mellitus",
+                                                 "phase":  "PHASE1",
+                                                 "status":  "NOT_YET_RECRUITING",
+                                                 "summary":  "This study was designed as a single-center, single-arm, open, fixed-sequence, self-controlled trial in healthy subjects.",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.21,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT04931017",
+                                                 "title":  "Metformin for Chemoprevention of Lung Cancer in Overweight or Obese Individuals at High Risk for Lung Cancer",
+                                                 "condition":  "Lung Carcinoma",
+                                                 "phase":  "PHASE2",
+                                                 "status":  "ACTIVE_NOT_RECRUITING",
+                                                 "summary":  "This phase II trial determines the effect of metformin extended release on the risk for developing lung cancer in overweight/obese patients that are at high-risk for developing lung cancer. Metformin is widely used to treat type II diabetes and has a long history of safety and minimal side effects. At similar dosage, the drug may have potential anti-cancer activity. Metformin use has been associated with improved survival in patients with non-small cell lung carcinoma, a specific type of lung cancer, and it has also been shown to enhance immune mobilization against tumors. This trial aims to see whether metformin extended release as a preventative treatment may lower the chance of developing lung cancer, and whether it may help patients\u0027 immune system learn (\"reprogram\") to lower a certain type of immune cell (called regulatory T cells) that are linked to tumor development.",
+                                                 "pmids":  [
+
+                                                           ],
+                                                 "relevance_score":  1.21,
+                                                 "drug_queried":  "metformin"
+                                             },
+                                             {
+                                                 "trial_id":  "NCT03629639",
+                                                 "title":  "Metformin for Treatment of Psoriasis Combined With Disorders of Glucose and Lipid Metabolism",
+                                                 "condition":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                 "phase":  "PHASE4",
+                                                 "status":  "UNKNOWN",
+                                                 "summary":  "Psoriasis and metabolic disorders are well-known mutual comorbidities. The investigators hypothesized metformin can ameliorate both psoriasis and metabolic disorders mainly via gut microbiota modulation. The investigators design a randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of treatment of metformin for psoriasis combined with disorders of glucose and lipid metabolism and to explore the role of gut microbiota during the process.",
+                                                 "pmids":  [
+                                                               "29549478",
+                                                               "28670544",
+                                                               "28538228",
+                                                               "25443628",
+                                                               "23437788",
+                                                               "18194825",
+                                                               "29130553",
+                                                               "23804561"
+                                                           ],
+                                                 "relevance_score":  1.18,
+                                                 "drug_queried":  "metformin"
+                                             }
+                                         ],
+                     "papers":  [
+
+                                ],
+                     "patents":  [
+
+                                 ],
+                     "approvals":  [
+                                       "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+                                   ],
+                     "regulatory":  {
+                                        "drug":  "metformin",
+                                        "approved_indications":  [
+                                                                     "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+                                                                 ],
+                                        "warnings":  [
+
+                                                     ],
+                                        "contradictions":  [
+                                                               "Renal impairment (eGFR below 30 mL/min/1.73 mÂ²).",
+                                                               "Acute or chronic metabolic acidosis.",
+                                                               "Hypersensitivity to metformin.",
+                                                               "Acute conditions that can alter renal function."
+                                                           ],
+                                        "adverse_events":  [
+                                                               "Diarrhea.",
+                                                               "Nausea.",
+                                                               "Vomiting.",
+                                                               "Flatulence.",
+                                                               "Asthenia.",
+                                                               "Indigestion.",
+                                                               "Abdominal discomfort.",
+                                                               "Headache.",
+                                                               "Note: These reactions are more common during initiation and usually resolve spontaneously."
+                                                           ],
+                                        "regulatory_summary":  "Metformin is indicated for the management of type 2 diabetes in both adult and pediatric populations as an adjunct to lifestyle changes. Its regulatory profile emphasizes monitoring of renal function, as it is contraindicated in patients with significant renal impairment or metabolic acidosis. Common adverse effects are primarily gastrointestinal in nature and typically occur during the start of treatment.",
+                                        "confidence":  0.7378447129492249,
+                                        "sources":  [
+                                                        "FDA Label - Aspirin",
+                                                        "FDA Label - Lisinopril",
+                                                        "FDA Label - Metformin"
+                                                    ],
+                                        "retrieval_metadata":  {
+                                                                   "chunks_retrieved":  8,
+                                                                   "sections_found":  [
+                                                                                          "indications",
+                                                                                          "adverse",
+                                                                                          "contradictions",
+                                                                                          "warnings"
+                                                                                      ],
+                                                                   "query_expansion":  [
+                                                                                           "metformin label fda",
+                                                                                           "metformin approved indications",
+                                                                                           "metformin warnings precautions"
+                                                                                       ]
+                                                               }
+                                    },
+                     "market":  {
+                                    "disease":  "diabetes",
+                                    "market_potential":  "High",
+                                    "global_prevalence":  "Unknown",
+                                    "market_growth":  "Unknown",
+                                    "key_statistics":  [
+                                                           "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Africa Eastern and Southern. Year: 2021. Value: 92.3503331753643. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                           "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Least developed countries: UN classification. Year: 2021. Value: 48.1863019536304. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                           "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Middle East, North Africa, Afghanistan \u0026 Pakistan (IDA \u0026 IBRD). Year: 2021. Value: 131.194717308625. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing."
+                                                       ]
+                                },
+                     "mechanism":  {
+                                       "primary_target":  "AMPK",
+                                       "primary_action":  "activation",
+                                       "targets":  [
+                                                       {
+                                                           "name":  "AMPK",
+                                                           "action":  "activation",
+                                                           "confidence":  0.92
+                                                       },
+                                                       {
+                                                           "name":  "mTOR",
+                                                           "action":  "indirect inhibition",
+                                                           "confidence":  0.66
+                                                       },
+                                                       {
+                                                           "name":  "Mitochondrial Complex I",
+                                                           "action":  "inhibition",
+                                                           "confidence":  0.7
+                                                       }
+                                                   ],
+                                       "mechanism_class":  "metabolic modulator",
+                                       "pathways":  [
+                                                        "AMPK signaling",
+                                                        "mTOR signaling",
+                                                        "glucose metabolism"
+                                                    ],
+                                       "query_terms":  [
+                                                           "AMPK",
+                                                           "activation",
+                                                           "mTOR",
+                                                           "glucose metabolism"
+                                                       ],
+                                       "confidence":  0.86,
+                                       "source":  "curated_lookup",
+                                       "molecule":  "Metformin",
+                                       "resolved":  true
+                                   }
+                 },
+    "meta":  {
+                 "confidence":  "low",
+                 "sources_used":  [
+                                      "clinical",
+                                      "market",
+                                      "patent",
+                                      "regulatory",
+                                      "literature"
+                                  ],
+                 "contradiction_risk":  "high",
+                 "regulatory_postcheck":  {
+                                              "checked_candidates":  [
+                                                                         {
+                                                                             "disease":  "Diabetes Mellitus, Type 2",
+                                                                             "approval_overlap":  false,
+                                                                             "contraindication_count":  4,
+                                                                             "warning_count":  0,
+                                                                             "summary":  "No direct overlap found in approved indication text; review contraindications for target population fit."
+                                                                         },
+                                                                         {
+                                                                             "disease":  "Fasting",
+                                                                             "approval_overlap":  false,
+                                                                             "contraindication_count":  4,
+                                                                             "warning_count":  0,
+                                                                             "summary":  "No direct overlap found in approved indication text; review contraindications for target population fit."
+                                                                         },
+                                                                         {
+                                                                             "disease":  "Lung Carcinoma",
+                                                                             "approval_overlap":  false,
+                                                                             "contraindication_count":  4,
+                                                                             "warning_count":  0,
+                                                                             "summary":  "No direct overlap found in approved indication text; review contraindications for target population fit."
+                                                                         }
+                                                                     ]
+                                          }
+             },
+    "agents":  {
+                   "clinical":  {
+                                    "status":  "success",
+                                    "error":  null,
+                                    "response":  {
+                                                     "molecule":  "Metformin",
+                                                     "summary":  {
+                                                                     "total_trials":  10,
+                                                                     "phases":  {
+                                                                                    "PHASE1":  5,
+                                                                                    "N/A":  1,
+                                                                                    "PHASE2":  3,
+                                                                                    "PHASE4":  1
+                                                                                },
+                                                                     "statuses":  {
+                                                                                      "NOT_YET_RECRUITING":  2,
+                                                                                      "COMPLETED":  4,
+                                                                                      "WITHDRAWN":  2,
+                                                                                      "ACTIVE_NOT_RECRUITING":  1,
+                                                                                      "UNKNOWN":  1
+                                                                                  },
+                                                                     "conditions":  [
+                                                                                        "Lung Carcinoma",
+                                                                                        "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                                                        "Fasting",
+                                                                                        "Psoriasis Vulgaris With Metabolic Disorders",
+                                                                                        "Prostate Cancer"
+                                                                                    ],
+                                                                     "most_common_condition":  "Diabetes"
+                                                                 },
+                                                     "trials":  [
+                                                                    {
+                                                                        "trial_id":  "NCT06727838",
+                                                                        "title":  "Study on Drug Interaction of Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+                                                                        "condition":  "Diabetes",
+                                                                        "phase":  "PHASE1",
+                                                                        "status":  "NOT_YET_RECRUITING",
+                                                                        "summary":  "This study was a single-center, open, fixed-sequence, self-controlled trial design conducted in healthy subjects.",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.61,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT00745433",
+                                                                        "title":  "Switch From Metformin Monotherapy to a Bitherapy With Metformin and Repaglinide",
+                                                                        "condition":  "Diabetes",
+                                                                        "phase":  "N/A",
+                                                                        "status":  "COMPLETED",
+                                                                        "summary":  "This study is conducted in Europe. The aim of this observational study is to investigate the efficacy (e.g. glycemic control) and safety (e.g. hypoglycemic episodes) when adding repaglinide to a monotherapy of metformin in type 2 diabetic patients under normal clinical practice",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.38,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT01478308",
+                                                                        "title":  "Metformin With Standard Taxotere and Prednisone in the Treatment of Castration Resistant Prostate Cancer",
+                                                                        "condition":  "Prostate Cancer",
+                                                                        "phase":  "PHASE2",
+                                                                        "status":  "WITHDRAWN",
+                                                                        "summary":  "This study is being conducted to determine the effectiveness of standard 3 weekly treatments using docetaxel and prednisone with metformin in patients with castration-resistant metastatic prostate cancer.",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.32,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT00860288",
+                                                                        "title":  "Efficacy and Long-Term Safety of Vildagliptin as Add-on Therapy to Metformin in Patients With Type 2 Diabetes",
+                                                                        "condition":  "Diabetes Mellitus, Type 2",
+                                                                        "phase":  "PHASE2",
+                                                                        "status":  "COMPLETED",
+                                                                        "summary":  "This is a 2-3 period parallel group study with an adaptive element in Type 2 diabetes patients receiving vildagliptin as add-on therapy to metformin",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.31,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT02457286",
+                                                                        "title":  "Improving Insulin Resistance To Treat Non-Alcoholic Fatty Liver Disease: A Pilot Study",
+                                                                        "condition":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                                        "phase":  "PHASE1",
+                                                                        "status":  "WITHDRAWN",
+                                                                        "summary":  "Metformin is being compared to exercise and diet modifications. The researchers are interested in learning if the addition of metformin to lifestyle modifications is more helpful in treating the condition or disorder. Although metformin is FDA approved to treat type 2 diabetes, it is not FDA approved for the treatment of Non-alcoholic fatty liver (NAFLD) and is considered investigational for the purpose of this study.",
+                                                                        "pmids":  [
+                                                                                      "22374640",
+                                                                                      "19533014",
+                                                                                      "15895401",
+                                                                                      "19293782",
+                                                                                      "18839053",
+                                                                                      "18366995"
+                                                                                  ],
+                                                                        "relevance_score":  1.29,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT00376038",
+                                                                        "title":  "Drug Interactions From Simultaneous Administration Of Metformin And GSK189075 To Subjects With Type 2 Diabetes",
+                                                                        "condition":  "Type 2 Diabetes Mellitus",
+                                                                        "phase":  "PHASE1",
+                                                                        "status":  "COMPLETED",
+                                                                        "summary":  "GSK189075 is intended for use as a single treatment or in combination with other treatments for tye 2 diabetes mellitus (T2DM). Metformin is widely used in Europe and the USA for the treatment of T2DM. This study will evaluate the effect of GSK189075 on metformin levels in the blood in T2DM subjects. The rationale is to look for any safety problems that may result when the 2 drugs are given together.",
+                                                                        "pmids":  [
+                                                                                      "23631443"
+                                                                                  ],
+                                                                        "relevance_score":  1.23,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT01831661",
+                                                                        "title":  "Bioequivalence Study of Metformin Hydrochloride Extended-Release Tablets USP 750 mg Under Fasting Condition",
+                                                                        "condition":  "Fasting",
+                                                                        "phase":  "PHASE1",
+                                                                        "status":  "COMPLETED",
+                                                                        "summary":  "The study was a randomized, open label, two-treatment, two-period, two-sequence, single dose, crossover, oral bioequivalence study in normal, healthy adult human subjects under fasting condition.",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.22,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT06495931",
+                                                                        "title":  "Study on Drug Interaction of HRS-1780 Tablets, Henagliflozin Tablets, Metformin Tablets and HRS-7535 Tablets in Healthy Human",
+                                                                        "condition":  "Type 2 Diabetes Mellitus",
+                                                                        "phase":  "PHASE1",
+                                                                        "status":  "NOT_YET_RECRUITING",
+                                                                        "summary":  "This study was designed as a single-center, single-arm, open, fixed-sequence, self-controlled trial in healthy subjects.",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.21,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT04931017",
+                                                                        "title":  "Metformin for Chemoprevention of Lung Cancer in Overweight or Obese Individuals at High Risk for Lung Cancer",
+                                                                        "condition":  "Lung Carcinoma",
+                                                                        "phase":  "PHASE2",
+                                                                        "status":  "ACTIVE_NOT_RECRUITING",
+                                                                        "summary":  "This phase II trial determines the effect of metformin extended release on the risk for developing lung cancer in overweight/obese patients that are at high-risk for developing lung cancer. Metformin is widely used to treat type II diabetes and has a long history of safety and minimal side effects. At similar dosage, the drug may have potential anti-cancer activity. Metformin use has been associated with improved survival in patients with non-small cell lung carcinoma, a specific type of lung cancer, and it has also been shown to enhance immune mobilization against tumors. This trial aims to see whether metformin extended release as a preventative treatment may lower the chance of developing lung cancer, and whether it may help patients\u0027 immune system learn (\"reprogram\") to lower a certain type of immune cell (called regulatory T cells) that are linked to tumor development.",
+                                                                        "pmids":  [
+
+                                                                                  ],
+                                                                        "relevance_score":  1.21,
+                                                                        "drug_queried":  "metformin"
+                                                                    },
+                                                                    {
+                                                                        "trial_id":  "NCT03629639",
+                                                                        "title":  "Metformin for Treatment of Psoriasis Combined With Disorders of Glucose and Lipid Metabolism",
+                                                                        "condition":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                                        "phase":  "PHASE4",
+                                                                        "status":  "UNKNOWN",
+                                                                        "summary":  "Psoriasis and metabolic disorders are well-known mutual comorbidities. The investigators hypothesized metformin can ameliorate both psoriasis and metabolic disorders mainly via gut microbiota modulation. The investigators design a randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of treatment of metformin for psoriasis combined with disorders of glucose and lipid metabolism and to explore the role of gut microbiota during the process.",
+                                                                        "pmids":  [
+                                                                                      "29549478",
+                                                                                      "28670544",
+                                                                                      "28538228",
+                                                                                      "25443628",
+                                                                                      "23437788",
+                                                                                      "18194825",
+                                                                                      "29130553",
+                                                                                      "23804561"
+                                                                                  ],
+                                                                        "relevance_score":  1.18,
+                                                                        "drug_queried":  "metformin"
+                                                                    }
+                                                                ],
+                                                     "total_trials_found":  10
+                                                 }
+                                },
+                   "literature":  {
+                                      "status":  "success",
+                                      "error":  null,
+                                      "response":  {
+                                                       "status":  "success",
+                                                       "papers_analyzed":  0,
+                                                       "findings_extracted":  0,
+                                                       "findings":  [
+
+                                                                    ]
+                                                   }
+                                  },
+                   "patent":  {
+                                  "status":  "success",
+                                  "error":  null,
+                                  "response":  {
+                                                   "molecule":  "Metformin",
+                                                   "patent_status":  "Unknown",
+                                                   "expiry_year":  "Unknown",
+                                                   "commercial_freedom":  "High",
+                                                   "detailed_analysis":  {
+                                                                             "patent_summary":  {
+                                                                                                    "total_patents_found":  "0",
+                                                                                                    "major_assignees":  [
+
+                                                                                                                        ],
+                                                                                                    "patent_types_distribution":  {
+
+                                                                                                                                  }
+                                                                                                },
+                                                                             "expiry_analysis":  {
+                                                                                                     "core_patent_status":  "Unknown",
+                                                                                                     "earliest_expiry":  "Unknown",
+                                                                                                     "latest_expiry":  "Unknown"
+                                                                                                 },
+                                                                             "repurposing_feasibility":  {
+                                                                                                             "freedom_to_operate":  "High",
+                                                                                                             "reasoning":  "No patents found for this molecule in the database. This suggests freedom to operate, but verify with a comprehensive search."
+                                                                                                         },
+                                                                             "opportunity_signals":  [
+                                                                                                         "No patent barriers identified"
+                                                                                                     ],
+                                                                             "risk_factors":  [
+                                                                                                  "Limited patent data available - manual verification recommended"
+                                                                                              ],
+                                                                             "citations":  [
+
+                                                                                           ]
+                                                                         }
+                                               }
+                              },
+                   "regulatory":  {
+                                      "status":  "success",
+                                      "error":  null,
+                                      "response":  {
+                                                       "success":  true,
+                                                       "data":  {
+                                                                    "drug":  "metformin",
+                                                                    "approved_indications":  [
+                                                                                                 "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+                                                                                             ],
+                                                                    "warnings":  [
+
+                                                                                 ],
+                                                                    "contradictions":  [
+                                                                                           "Renal impairment (eGFR below 30 mL/min/1.73 mÂ²).",
+                                                                                           "Acute or chronic metabolic acidosis.",
+                                                                                           "Hypersensitivity to metformin.",
+                                                                                           "Acute conditions that can alter renal function."
+                                                                                       ],
+                                                                    "adverse_events":  [
+                                                                                           "Diarrhea.",
+                                                                                           "Nausea.",
+                                                                                           "Vomiting.",
+                                                                                           "Flatulence.",
+                                                                                           "Asthenia.",
+                                                                                           "Indigestion.",
+                                                                                           "Abdominal discomfort.",
+                                                                                           "Headache.",
+                                                                                           "Note: These reactions are more common during initiation and usually resolve spontaneously."
+                                                                                       ],
+                                                                    "regulatory_summary":  "Metformin is indicated for the management of type 2 diabetes in both adult and pediatric populations as an adjunct to lifestyle changes. Its regulatory profile emphasizes monitoring of renal function, as it is contraindicated in patients with significant renal impairment or metabolic acidosis. Common adverse effects are primarily gastrointestinal in nature and typically occur during the start of treatment.",
+                                                                    "confidence":  0.7378447129492249,
+                                                                    "sources":  [
+                                                                                    "FDA Label - Aspirin",
+                                                                                    "FDA Label - Lisinopril",
+                                                                                    "FDA Label - Metformin"
+                                                                                ],
+                                                                    "retrieval_metadata":  {
+                                                                                               "chunks_retrieved":  8,
+                                                                                               "sections_found":  [
+                                                                                                                      "indications",
+                                                                                                                      "adverse",
+                                                                                                                      "contradictions",
+                                                                                                                      "warnings"
+                                                                                                                  ],
+                                                                                               "query_expansion":  [
+                                                                                                                       "metformin label fda",
+                                                                                                                       "metformin approved indications",
+                                                                                                                       "metformin warnings precautions"
+                                                                                                                   ]
+                                                                                           }
+                                                                },
+                                                       "error":  null
+                                                   }
+                                  },
+                   "market":  {
+                                  "status":  "success",
+                                  "error":  null,
+                                  "response":  {
+                                                   "disease":  "diabetes",
+                                                   "market_potential":  "High",
+                                                   "global_prevalence":  "Unknown",
+                                                   "market_growth":  "Unknown",
+                                                   "detailed_analysis":  {
+                                                                             "disease":  "diabetes",
+                                                                             "market_summary":  "diabetes shows relevant disease-burden and health-system signals in the retrieved data. Healthcare expenditure indicators from WHO and World Bank suggest where payer capacity may support new therapies, while any disease-specific prevalence rows highlight the potential patient pool. Taken together, these signals can be used as an early proxy for treatment market attractiveness.",
+                                                                             "key_statistics":  [
+                                                                                                    "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Africa Eastern and Southern. Year: 2021. Value: 92.3503331753643. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                                                                    "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Least developed countries: UN classification. Year: 2021. Value: 48.1863019536304. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                                                                    "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Middle East, North Africa, Afghanistan \u0026 Pakistan (IDA \u0026 IBRD). Year: 2021. Value: 131.194717308625. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing."
+                                                                                                ],
+                                                                             "sources":  [
+                                                                                             "World Bank"
+                                                                                         ]
+                                                                         }
+                                               }
+                              }
+               },
+    "intelligence":  {
+                         "normalized_signals":  {
+                                                    "mechanism":  {
+                                                                      "primary_target":  "AMPK",
+                                                                      "primary_action":  "activation",
+                                                                      "targets":  [
+                                                                                      {
+                                                                                          "name":  "AMPK",
+                                                                                          "action":  "activation",
+                                                                                          "confidence":  0.92
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "mTOR",
+                                                                                          "action":  "indirect inhibition",
+                                                                                          "confidence":  0.66
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Mitochondrial Complex I",
+                                                                                          "action":  "inhibition",
+                                                                                          "confidence":  0.7
+                                                                                      }
+                                                                                  ],
+                                                                      "pathways":  [
+                                                                                       "AMPK signaling",
+                                                                                       "mTOR signaling",
+                                                                                       "glucose metabolism"
+                                                                                   ],
+                                                                      "confidence":  0.86,
+                                                                      "query_terms":  [
+                                                                                          "AMPK",
+                                                                                          "activation",
+                                                                                          "mTOR",
+                                                                                          "glucose metabolism"
+                                                                                      ]
+                                                                  },
+                                                    "clinical":  {
+                                                                     "diseases":  [
+                                                                                      {
+                                                                                          "name":  "Diabetes",
+                                                                                          "count":  2
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Type 2 Diabetes Mellitus",
+                                                                                          "count":  2
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Prostate Cancer",
+                                                                                          "count":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Diabetes Mellitus, Type 2",
+                                                                                          "count":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                                                          "count":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Fasting",
+                                                                                          "count":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Lung Carcinoma",
+                                                                                          "count":  1
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                                                          "count":  1
+                                                                                      }
+                                                                                  ],
+                                                                     "trial_strength":  10,
+                                                                     "phases":  {
+                                                                                    "PHASE1":  5,
+                                                                                    "PHASE2":  3,
+                                                                                    "PHASE4":  1
+                                                                                },
+                                                                     "statuses":  {
+                                                                                      "NOT_YET_RECRUITING":  2,
+                                                                                      "COMPLETED":  4,
+                                                                                      "WITHDRAWN":  2,
+                                                                                      "ACTIVE_NOT_RECRUITING":  1,
+                                                                                      "UNKNOWN":  1
+                                                                                  }
+                                                                 },
+                                                    "literature":  {
+                                                                       "diseases":  [
+
+                                                                                    ],
+                                                                       "mechanisms":  [
+
+                                                                                      ],
+                                                                       "sentiment":  {
+
+                                                                                     },
+                                                                       "papers_analyzed":  0
+                                                                   },
+                                                    "patent":  {
+                                                                   "freedom_to_operate":  "High",
+                                                                   "risk":  [
+                                                                                "Limited patent data available - manual verification recommended"
+                                                                            ]
+                                                               },
+                                                    "regulatory":  {
+                                                                       "approved":  [
+                                                                                        "Adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus."
+                                                                                    ],
+                                                                       "risks":  [
+                                                                                     "Renal impairment (eGFR below 30 mL/min/1.73 mÂ²).",
+                                                                                     "Acute or chronic metabolic acidosis.",
+                                                                                     "Hypersensitivity to metformin.",
+                                                                                     "Acute conditions that can alter renal function."
+                                                                                 ],
+                                                                       "warnings":  [
+
+                                                                                    ],
+                                                                       "confidence":  0.7378447129492249
+                                                                   },
+                                                    "market":  {
+                                                                   "disease":  "diabetes",
+                                                                   "market_score":  15,
+                                                                   "market_potential":  "High",
+                                                                   "market_stats":  [
+                                                                                        "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Africa Eastern and Southern. Year: 2021. Value: 92.3503331753643. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                                                        "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Least developed countries: UN classification. Year: 2021. Value: 48.1863019536304. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing.",
+                                                                                        "Disease: diabetes. Source: World Bank. Indicator: Current health expenditure per capita (current US$) (SH.XPD.CHEX.PC.CD). Geography: Middle East, North Africa, Afghanistan \u0026 Pakistan (IDA \u0026 IBRD). Year: 2021. Value: 131.194717308625. Unit or dimension: unspecified unit. Use this record as epidemiology or healthcare market context for market sizing."
+                                                                                    ]
+                                                               }
+                                                },
+                         "cross_domain_insights":  [
+                                                       {
+                                                           "disease":  "Diabetes",
+                                                           "evidence_summary":  "2 clinical signal(s); market aligned to diabetes",
+                                                           "supporting_domains":  [
+                                                                                      "clinical",
+                                                                                      "market",
+                                                                                      "regulatory"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Already appears in approved indication text; novelty reduced.",
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Diabetes Mellitus, Type 2",
+                                                           "evidence_summary":  "1 clinical signal(s); market aligned to diabetes",
+                                                           "supporting_domains":  [
+                                                                                      "clinical",
+                                                                                      "market"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Fasting",
+                                                           "evidence_summary":  "1 clinical signal(s)",
+                                                           "supporting_domains":  [
+                                                                                      "clinical"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "market",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Lung Carcinoma",
+                                                           "evidence_summary":  "1 clinical signal(s)",
+                                                           "supporting_domains":  [
+                                                                                      "clinical"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "market",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                           "evidence_summary":  "1 clinical signal(s)",
+                                                           "supporting_domains":  [
+                                                                                      "clinical"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "market",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Prostate Cancer",
+                                                           "evidence_summary":  "1 clinical signal(s)",
+                                                           "supporting_domains":  [
+                                                                                      "clinical"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "market",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                           "evidence_summary":  "1 clinical signal(s)",
+                                                           "supporting_domains":  [
+                                                                                      "clinical"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature",
+                                                                                   "market",
+                                                                                   "regulatory"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       },
+                                                       {
+                                                           "disease":  "Type 2 Diabetes Mellitus",
+                                                           "evidence_summary":  "2 clinical signal(s); market aligned to diabetes",
+                                                           "supporting_domains":  [
+                                                                                      "clinical",
+                                                                                      "market",
+                                                                                      "regulatory"
+                                                                                  ],
+                                                           "missing_domains":  [
+                                                                                   "literature"
+                                                                               ],
+                                                           "risk_flags":  [
+                                                                              "Already appears in approved indication text; novelty reduced.",
+                                                                              "Clinical activity exists without matching literature support.",
+                                                                              "General regulatory contraindications should be checked against target population."
+                                                                          ]
+                                                       }
+                                                   ],
+                         "confidence_breakdown":  {
+                                                      "per_disease_scores":  [
+                                                                                 {
+                                                                                     "disease":  "Diabetes",
+                                                                                     "score":  21.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  36,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  19
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Type 2 Diabetes Mellitus",
+                                                                                     "score":  21.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  36,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  19
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Diabetes Mellitus, Type 2",
+                                                                                     "score":  11.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Fasting",
+                                                                                     "score":  7.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Lung Carcinoma",
+                                                                                     "score":  7.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                                                     "score":  7.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Prostate Cancer",
+                                                                                     "score":  7.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 },
+                                                                                 {
+                                                                                     "disease":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                                                     "score":  7.0,
+                                                                                     "confidence":  "low",
+                                                                                     "drivers":  {
+                                                                                                     "clinical_weight":  18,
+                                                                                                     "literature_weight":  0,
+                                                                                                     "market_weight":  15,
+                                                                                                     "regulatory_penalty":  15,
+                                                                                                     "patent_penalty":  0,
+                                                                                                     "contradiction_penalty":  7
+                                                                                                 }
+                                                                                 }
+                                                                             ],
+                                                      "global_score":  11.0,
+                                                      "global_confidence":  "low",
+                                                      "scoring_policy":  {
+                                                                             "priority_order":  [
+                                                                                                    "clinical",
+                                                                                                    "literature",
+                                                                                                    "market",
+                                                                                                    "patent"
+                                                                                                ],
+                                                                             "regulatory_mode":  "penalty",
+                                                                             "contradiction_mode":  "penalty"
+                                                                         },
+                                                      "contradictions_summary":  {
+                                                                                     "total":  11,
+                                                                                     "severity_counts":  {
+                                                                                                             "high":  3,
+                                                                                                             "medium":  8,
+                                                                                                             "low":  0
+                                                                                                         },
+                                                                                     "risk_level":  "high"
+                                                                                 }
+                                                  },
+                         "top_opportunities":  [
+                                                   {
+                                                       "disease":  "Diabetes Mellitus, Type 2",
+                                                       "score":  17.0,
+                                                       "confidence":  "low",
+                                                       "rationale":  "Diabetes Mellitus, Type 2 combines clinical, market signals with 2 missing domain(s).",
+                                                       "signals_used":  [
+                                                                            "clinical",
+                                                                            "market"
+                                                                        ],
+                                                       "novelty":  "novel",
+                                                       "contradiction_count":  1,
+                                                       "risk_flags":  [
+                                                                          "Clinical activity exists, but literature support is sparse or missing."
+                                                                      ]
+                                                   },
+                                                   {
+                                                       "disease":  "Fasting",
+                                                       "score":  13.0,
+                                                       "confidence":  "low",
+                                                       "rationale":  "Fasting combines clinical signals with 3 missing domain(s).",
+                                                       "signals_used":  [
+                                                                            "clinical"
+                                                                        ],
+                                                       "novelty":  "novel",
+                                                       "contradiction_count":  1,
+                                                       "risk_flags":  [
+                                                                          "Clinical activity exists, but literature support is sparse or missing."
+                                                                      ]
+                                                   },
+                                                   {
+                                                       "disease":  "Lung Carcinoma",
+                                                       "score":  13.0,
+                                                       "confidence":  "low",
+                                                       "rationale":  "Lung Carcinoma combines clinical signals with 3 missing domain(s).",
+                                                       "signals_used":  [
+                                                                            "clinical"
+                                                                        ],
+                                                       "novelty":  "novel",
+                                                       "contradiction_count":  1,
+                                                       "risk_flags":  [
+                                                                          "Clinical activity exists, but literature support is sparse or missing."
+                                                                      ]
+                                                   },
+                                                   {
+                                                       "disease":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                       "score":  13.0,
+                                                       "confidence":  "low",
+                                                       "rationale":  "Non-alcoholic Fatty Liver Disease (NAFLD) combines clinical signals with 3 missing domain(s).",
+                                                       "signals_used":  [
+                                                                            "clinical"
+                                                                        ],
+                                                       "novelty":  "novel",
+                                                       "contradiction_count":  1,
+                                                       "risk_flags":  [
+                                                                          "Clinical activity exists, but literature support is sparse or missing."
+                                                                      ]
+                                                   },
+                                                   {
+                                                       "disease":  "Prostate Cancer",
+                                                       "score":  13.0,
+                                                       "confidence":  "low",
+                                                       "rationale":  "Prostate Cancer combines clinical signals with 3 missing domain(s).",
+                                                       "signals_used":  [
+                                                                            "clinical"
+                                                                        ],
+                                                       "novelty":  "novel",
+                                                       "contradiction_count":  1,
+                                                       "risk_flags":  [
+                                                                          "Clinical activity exists, but literature support is sparse or missing."
+                                                                      ]
+                                                   }
+                                               ],
+                         "summary_basis":  {
+                                               "molecule":  "Metformin",
+                                               "sources_used":  [
+                                                                    "clinical",
+                                                                    "market",
+                                                                    "patent",
+                                                                    "regulatory",
+                                                                    "literature"
+                                                                ]
+                                           },
+                         "contradictions":  {
+                                                "items":  [
+                                                              {
+                                                                  "disease":  "Diabetes",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Diabetes",
+                                                                  "type":  "regulatory_vs_opportunity",
+                                                                  "severity":  "high",
+                                                                  "message":  "This disease already appears in approved indication text, reducing repurposing novelty.",
+                                                                  "affected_domains":  [
+                                                                                           "regulatory",
+                                                                                           "intelligence"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Diabetes Mellitus, Type 2",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Fasting",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Lung Carcinoma",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Prostate Cancer",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Type 2 Diabetes Mellitus",
+                                                                  "type":  "clinical_vs_literature",
+                                                                  "severity":  "medium",
+                                                                  "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                                                  "affected_domains":  [
+                                                                                           "clinical",
+                                                                                           "literature"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "Type 2 Diabetes Mellitus",
+                                                                  "type":  "regulatory_vs_opportunity",
+                                                                  "severity":  "high",
+                                                                  "message":  "This disease already appears in approved indication text, reducing repurposing novelty.",
+                                                                  "affected_domains":  [
+                                                                                           "regulatory",
+                                                                                           "intelligence"
+                                                                                       ]
+                                                              },
+                                                              {
+                                                                  "disease":  "general",
+                                                                  "type":  "regulatory_vs_opportunity",
+                                                                  "severity":  "high",
+                                                                  "message":  "Renal impairment (eGFR below 30 mL/min/1.73 mÂ²).",
+                                                                  "affected_domains":  [
+                                                                                           "regulatory"
+                                                                                       ]
+                                                              }
+                                                          ],
+                                                "summary":  {
+                                                                "total":  11,
+                                                                "severity_counts":  {
+                                                                                        "high":  3,
+                                                                                        "medium":  8,
+                                                                                        "low":  0
+                                                                                    },
+                                                                "risk_level":  "high"
+                                                            }
+                                            }
+                     },
+    "contradictions":  {
+                           "items":  [
+                                         {
+                                             "disease":  "Diabetes",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Diabetes",
+                                             "type":  "regulatory_vs_opportunity",
+                                             "severity":  "high",
+                                             "message":  "This disease already appears in approved indication text, reducing repurposing novelty.",
+                                             "affected_domains":  [
+                                                                      "regulatory",
+                                                                      "intelligence"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Diabetes Mellitus, Type 2",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Fasting",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Lung Carcinoma",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Non-alcoholic Fatty Liver Disease (NAFLD)",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Prostate Cancer",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Psoriasis Vulgaris With Metabolic Disorders",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Type 2 Diabetes Mellitus",
+                                             "type":  "clinical_vs_literature",
+                                             "severity":  "medium",
+                                             "message":  "Clinical activity exists, but literature support is sparse or missing.",
+                                             "affected_domains":  [
+                                                                      "clinical",
+                                                                      "literature"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "Type 2 Diabetes Mellitus",
+                                             "type":  "regulatory_vs_opportunity",
+                                             "severity":  "high",
+                                             "message":  "This disease already appears in approved indication text, reducing repurposing novelty.",
+                                             "affected_domains":  [
+                                                                      "regulatory",
+                                                                      "intelligence"
+                                                                  ]
+                                         },
+                                         {
+                                             "disease":  "general",
+                                             "type":  "regulatory_vs_opportunity",
+                                             "severity":  "high",
+                                             "message":  "Renal impairment (eGFR below 30 mL/min/1.73 mÂ²).",
+                                             "affected_domains":  [
+                                                                      "regulatory"
+                                                                  ]
+                                         }
+                                     ],
+                           "summary":  {
+                                           "total":  11,
+                                           "severity_counts":  {
+                                                                   "high":  3,
+                                                                   "medium":  8,
+                                                                   "low":  0
+                                                               },
+                                           "risk_level":  "high"
+                                       }
+                       },
+    "llm_report":  {
+                       "executive_summary":  "Metformin is a well-established metabolic modulator primarily acting as an AMPK activator with secondary effects on mTOR and Mitochondrial Complex I. While its regulatory profile is centered on Type 2 Diabetes, emerging clinical signals suggest potential applications in oncology and metabolic comorbidities, though current evidence for these novel indications remains at a low confidence level.",
+                       "key_findings":  [
+                                            "Primary mechanism of action is AMPK activation (0.92 confidence) and indirect mTOR inhibition (0.66 confidence).",
+                                            "Regulatory status is firmly established for Type 2 Diabetes, but requires monitoring for renal impairment (eGFR \u003c 30 mL/min/1.73 mÂ²).",
+                                            "Clinical trials are exploring diverse indications including Lung Carcinoma chemoprevention (NCT04931017) and Psoriasis with metabolic disorders (NCT03629639).",
+                                            "Market potential for metabolic-related indications is rated as High, supported by global health expenditure data."
+                                        ],
+                       "top_repurposing_opportunities":  [
+                                                             "Lung Carcinoma: Active Phase 2 trial (NCT04931017) investigating chemoprevention in high-risk overweight/obese individuals.",
+                                                             "Non-alcoholic Fatty Liver Disease (NAFLD): Investigational use for improving insulin resistance (NCT02457286).",
+                                                             "Prostate Cancer: Phase 2 exploration in castration-resistant metastatic cases (NCT01478308).",
+                                                             "Psoriasis Vulgaris with Metabolic Disorders: Phase 4 study (NCT03629639) evaluating efficacy via gut microbiota modulation."
+                                                         ],
+                       "risks_and_limitations":  [
+                                                     "Strict contraindication in patients with significant renal impairment or metabolic acidosis.",
+                                                     "Common gastrointestinal adverse effects including diarrhea, nausea, and abdominal discomfort.",
+                                                     "Low confidence scores for novel indications due to sparse literature support and withdrawn clinical trials (e.g., NCT01478308, NCT02457286).",
+                                                     "Reduced repurposing novelty for indications closely related to the approved diabetes profile."
+                                                 ],
+                       "final_recommendation":  "Prioritize the investigation of Metformin for Lung Carcinoma chemoprevention, leveraging its active Phase 2 status and mechanistic inhibition of mTOR. Secondary focus should be placed on NAFLD and Psoriasis, provided that the gap between clinical signals and literature support can be addressed through further validation.",
+                       "generation_mode":  "gemini",
+                       "model":  "gemini-3-flash-preview"
+                   }
+}
