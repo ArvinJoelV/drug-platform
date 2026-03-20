@@ -1,4 +1,4 @@
-﻿param(
+param(
     [string]$PythonExe = "",
     [switch]$SetupFirst
 )
@@ -68,7 +68,7 @@ Start-Sleep -Seconds 1
 Start-AgentWindow -Title "Literature Agent :8002" -WorkingDirectory (Join-Path $repoRoot "literature-agent") -Command "& '$python' .\main.py" -ActivateScript $activateScript
 Start-Sleep -Seconds 1
 
-Start-AgentWindow -Title "Patent Agent :8003" -WorkingDirectory (Join-Path $repoRoot "patent-agent") -Command "& '$python' .\patent_server.py --port 8003" -ActivateScript $activateScript
+Start-AgentWindow -Title "Patent Agent :8003" -WorkingDirectory (Join-Path $repoRoot "patent-agent") -Command "& '$python' .\patent_server.py --port 8003 --database patent_database.json" -ActivateScript $activateScript
 Start-Sleep -Seconds 1
 
 Start-AgentWindow -Title "Market Agent :8004" -WorkingDirectory (Join-Path $repoRoot "market_agent") -Command "& '$python' .\market_server.py --port 8004" -ActivateScript $activateScript
