@@ -36,8 +36,8 @@ const TAB_ITEMS = [
 const shellStyle = {
   minHeight: '100vh',
   background:
-    'radial-gradient(circle at top, rgba(31,111,235,0.10), transparent 28%), linear-gradient(180deg, #f7f9fc 0%, #eef3f8 100%)',
-  color: '#152033',
+    'radial-gradient(circle at top, rgba(202, 138, 4, 0.12), transparent 35%), linear-gradient(180deg, #ffffff 0%, #fefce8 100%)',
+  color: '#1c1917',
 }
 
 const pageStyle = {
@@ -47,15 +47,15 @@ const pageStyle = {
 }
 
 const panelStyle = {
-  background: 'rgba(255,255,255,0.88)',
-  border: '1px solid rgba(21,32,51,0.10)',
+  background: 'rgba(255,255,255,0.75)',
+  border: '1px solid rgba(202, 138, 4, 0.18)',
   borderRadius: 18,
-  boxShadow: '0 20px 50px rgba(20, 39, 78, 0.08)',
-  backdropFilter: 'blur(10px)',
+  boxShadow: '0 20px 50px rgba(202, 138, 4, 0.06)',
+  backdropFilter: 'blur(12px)',
 }
 
 const mutedTextStyle = {
-  color: '#52607a',
+  color: '#78716c',
 }
 
 function formatLabel(value) {
@@ -194,7 +194,7 @@ function buildChatAnswer(question, result) {
       .map((trial) => `${trial.trial_id}: ${trial.title}`)
     const papers = toArray(result?.evidence?.papers)
       .slice(0, 2)
-      .map((paper) => paper.title || paper.citation || JSON.stringify(paper))
+      .map((paper) => paper.paper_title || paper.title || paper.citation || JSON.stringify(paper))
 
     return [...trials, ...papers].join(' ') || 'The evidence layer is sparse for this analysis.'
   }
@@ -218,25 +218,25 @@ function MetricCard({ label, value }) {
       style={{
         padding: 16,
         borderRadius: 14,
-        border: '1px solid rgba(21,32,51,0.10)',
+        border: '1px solid rgba(28, 25, 23,0.10)',
         background: '#fff',
       }}
     >
       <div style={{ fontSize: 12, textTransform: 'uppercase', letterSpacing: 1.2, color: '#6a7790' }}>
         {label}
       </div>
-      <div style={{ marginTop: 10, fontSize: 16, lineHeight: 1.5, color: '#152033' }}>{formatLabel(value)}</div>
+      <div style={{ marginTop: 10, fontSize: 16, lineHeight: 1.5, color: '#1c1917' }}>{formatLabel(value)}</div>
     </div>
   )
 }
 
 function Pill({ children, tone = 'neutral' }) {
   const tones = {
-    neutral: { background: '#eef4fb', color: '#355070' },
-    blue: { background: '#e9f2ff', color: '#1f5fbf' },
-    green: { background: '#e8f7ef', color: '#177245' },
-    amber: { background: '#fff3df', color: '#9a6700' },
-    red: { background: '#fdecec', color: '#af3a32' },
+    neutral: { background: '#f5f5f4', color: '#44403c' },
+    blue: { background: '#fef3c7', color: '#a16207' }, // re-themed to gold
+    green: { background: '#f0fdf4', color: '#15803d' },
+    amber: { background: '#fef08a', color: '#b45309' },
+    red: { background: '#fef2f2', color: '#b91c1c' },
   }
 
   return (
@@ -289,7 +289,7 @@ function ListBlock({ items, emptyText }) {
             padding: 14,
             borderRadius: 12,
             background: '#fff',
-            border: '1px solid rgba(21,32,51,0.08)',
+            border: '1px solid rgba(28, 25, 23,0.08)',
           }}
         >
           {typeof item === 'string' ? (
@@ -314,7 +314,7 @@ function EvidenceAccordion({ title, items, fallback }) {
     <div
       style={{
         borderRadius: 14,
-        border: '1px solid rgba(21,32,51,0.08)',
+        border: '1px solid rgba(28, 25, 23,0.08)',
         background: '#fff',
         overflow: 'hidden',
       }}
@@ -322,7 +322,7 @@ function EvidenceAccordion({ title, items, fallback }) {
       <div
         style={{
           padding: '12px 14px',
-          borderBottom: '1px solid rgba(21,32,51,0.06)',
+          borderBottom: '1px solid rgba(28, 25, 23,0.06)',
           fontWeight: 600,
         }}
       >
@@ -348,7 +348,7 @@ function KeyValueRows({ rows }) {
               gridTemplateColumns: '160px minmax(0, 1fr)',
               gap: 12,
               paddingBottom: 10,
-              borderBottom: '1px solid rgba(21,32,51,0.06)',
+              borderBottom: '1px solid rgba(28, 25, 23,0.06)',
             }}
           >
             <div style={{ fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, color: '#6a7790' }}>
@@ -364,7 +364,7 @@ function KeyValueRows({ rows }) {
 function OpportunityCard({ item, index }) {
   if (typeof item === 'string') {
     return (
-      <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(21,32,51,0.08)', background: '#fff' }}>
+      <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(28, 25, 23,0.08)', background: '#fff' }}>
         <div style={{ fontWeight: 700, marginBottom: 8 }}>Opportunity {index + 1}</div>
         <div style={{ lineHeight: 1.7 }}>{item}</div>
       </div>
@@ -372,7 +372,7 @@ function OpportunityCard({ item, index }) {
   }
 
   return (
-    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(21,32,51,0.08)', background: '#fff' }}>
+    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(28, 25, 23,0.08)', background: '#fff' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
         <div style={{ fontWeight: 700, fontSize: 18 }}>{formatLabel(item.disease)}</div>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -400,7 +400,7 @@ function ContradictionCard({ item }) {
   }
 
   return (
-    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(21,32,51,0.08)', background: '#fff' }}>
+    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(28, 25, 23,0.08)', background: '#fff' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
         <div style={{ fontWeight: 700 }}>{formatLabel(item.disease)}</div>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -422,7 +422,7 @@ function ContradictionCard({ item }) {
 
 function TrialCard({ trial }) {
   return (
-    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(21,32,51,0.08)', background: '#fff' }}>
+    <div style={{ padding: 16, borderRadius: 14, border: '1px solid rgba(28, 25, 23,0.08)', background: '#fff' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
         <div>
           <div style={{ fontWeight: 700 }}>{formatLabel(trial.title)}</div>
@@ -446,7 +446,7 @@ function ReportSection({ title, content }) {
   const items = Array.isArray(content) ? content : null
 
   return (
-    <div style={{ padding: 18, borderRadius: 14, border: '1px solid rgba(21,32,51,0.08)', background: '#fff' }}>
+    <div style={{ padding: 18, borderRadius: 14, border: '1px solid rgba(28, 25, 23,0.08)', background: '#fff' }}>
       <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 10 }}>{title}</div>
       {items ? (
         <div style={{ display: 'grid', gap: 10 }}>
@@ -661,8 +661,8 @@ function App() {
                   gap: 10,
                   padding: '8px 14px',
                   borderRadius: 999,
-                  background: 'rgba(31,111,235,0.08)',
-                  color: '#1f4ea8',
+                  background: 'rgba(202, 138, 4, 0.12)',
+                  color: '#a16207',
                   fontSize: 13,
                   letterSpacing: 0.8,
                   textTransform: 'uppercase',
@@ -674,7 +674,7 @@ function App() {
                     width: 8,
                     height: 8,
                     borderRadius: '50%',
-                    background: '#1f6feb',
+                    background: '#ca8a04',
                   }}
                 />
                 Multi-agent decision intelligence
@@ -703,11 +703,12 @@ function App() {
                     border: 'none',
                     borderRadius: 12,
                     padding: '14px 22px',
-                    background: '#1f6feb',
+                    background: 'linear-gradient(135deg, #d97706 0%, #a16207 100%)',
                     color: '#fff',
                     fontWeight: 600,
                     cursor: 'pointer',
-                    boxShadow: '0 14px 34px rgba(31,111,235,0.22)',
+                    boxShadow: '0 14px 34px rgba(202, 138, 4, 0.3)',
+                    transition: 'all 0.2s ease',
                   }}
                 >
                   Enter AgentRx
@@ -747,7 +748,7 @@ function App() {
                   onClick={() => setEntered(false)}
                   style={{
                     borderRadius: 10,
-                    border: '1px solid rgba(21,32,51,0.12)',
+                    border: '1px solid rgba(28, 25, 23,0.12)',
                     background: '#fff',
                     padding: '10px 14px',
                     cursor: 'pointer',
@@ -788,7 +789,7 @@ function App() {
                     onClick={loadHealth}
                     style={{
                       borderRadius: 10,
-                      border: '1px solid rgba(21,32,51,0.12)',
+                      border: '1px solid rgba(28, 25, 23,0.12)',
                       background: '#fff',
                       padding: '8px 12px',
                       cursor: 'pointer',
@@ -814,7 +815,7 @@ function App() {
                         style={{
                           padding: 16,
                           borderRadius: 14,
-                          border: '1px solid rgba(21,32,51,0.08)',
+                          border: '1px solid rgba(28, 25, 23,0.08)',
                           background: '#fff',
                         }}
                       >
@@ -862,7 +863,7 @@ function App() {
                       style={{
                         width: '100%',
                         borderRadius: 12,
-                        border: '1px solid rgba(21,32,51,0.14)',
+                        border: '1px solid rgba(28, 25, 23,0.14)',
                         padding: '14px 16px',
                         background: '#fff',
                       }}
@@ -875,7 +876,7 @@ function App() {
                       border: 'none',
                       borderRadius: 12,
                       padding: '14px 18px',
-                      background: isAnalyzing ? '#8db6f5' : '#1f6feb',
+                      background: isAnalyzing ? '#8db6f5' : '#ca8a04',
                       color: '#fff',
                       fontWeight: 600,
                       cursor: isAnalyzing ? 'wait' : 'pointer',
@@ -913,11 +914,11 @@ function App() {
                       style={{
                         padding: 14,
                         borderRadius: 14,
-                        border: completed || active ? '1px solid rgba(31,111,235,0.32)' : '1px solid rgba(21,32,51,0.08)',
+                        border: completed || active ? '1px solid rgba(202, 138, 4,0.32)' : '1px solid rgba(28, 25, 23,0.08)',
                         background: completed
-                          ? 'rgba(31,111,235,0.10)'
+                          ? 'rgba(202, 138, 4,0.10)'
                           : active
-                            ? 'rgba(31,111,235,0.16)'
+                            ? 'rgba(202, 138, 4,0.16)'
                             : '#fff',
                       }}
                     >
@@ -925,7 +926,7 @@ function App() {
                         Stage {index + 1}
                       </div>
                       <div style={{ marginTop: 8, fontWeight: 600, lineHeight: 1.4 }}>{stage}</div>
-                      <div style={{ marginTop: 10, fontSize: 13, color: '#52607a' }}>
+                      <div style={{ marginTop: 10, fontSize: 13, color: '#78716c' }}>
                         {completed ? 'Completed' : active ? 'Executing' : 'Queued'}
                       </div>
                     </div>
@@ -966,8 +967,8 @@ function App() {
                             maxWidth: '92%',
                             padding: '12px 14px',
                             borderRadius: 14,
-                            background: message.role === 'user' ? '#1f6feb' : '#f3f6fb',
-                            color: message.role === 'user' ? '#fff' : '#152033',
+                            background: message.role === 'user' ? '#ca8a04' : '#f3f6fb',
+                            color: message.role === 'user' ? '#fff' : '#1c1917',
                             lineHeight: 1.6,
                             whiteSpace: 'pre-wrap',
                           }}
@@ -987,7 +988,7 @@ function App() {
                           width: '100%',
                           resize: 'vertical',
                           borderRadius: 12,
-                          border: '1px solid rgba(21,32,51,0.14)',
+                          border: '1px solid rgba(28, 25, 23,0.14)',
                           padding: 12,
                           background: '#fff',
                         }}
@@ -998,7 +999,7 @@ function App() {
                           border: 'none',
                           borderRadius: 12,
                           padding: '12px 16px',
-                          background: '#152033',
+                          background: '#1c1917',
                           color: '#fff',
                           fontWeight: 600,
                           cursor: 'pointer',
@@ -1025,12 +1026,14 @@ function App() {
                             borderRadius: 999,
                             border:
                               activeTab === tab
-                                ? '1px solid rgba(31,111,235,0.30)'
-                                : '1px solid rgba(21,32,51,0.10)',
-                            background: activeTab === tab ? 'rgba(31,111,235,0.10)' : '#fff',
-                            color: '#152033',
+                                ? '1px solid rgba(202, 138, 4, 0.35)'
+                                : '1px solid rgba(28, 25, 23, 0.10)',
+                            background: activeTab === tab ? 'rgba(202, 138, 4, 0.10)' : '#fff',
+                            color: activeTab === tab ? '#854d0e' : '#44403c',
                             padding: '10px 14px',
                             cursor: 'pointer',
+                            fontWeight: activeTab === tab ? 600 : 400,
+                            transition: 'all 0.2s ease',
                           }}
                         >
                           {tab}
@@ -1087,7 +1090,7 @@ function App() {
                               style={{
                                 padding: 16,
                                 borderRadius: 14,
-                                border: '1px solid rgba(21,32,51,0.08)',
+                                border: '1px solid rgba(28, 25, 23,0.08)',
                                 background: '#fff',
                               }}
                             >
@@ -1124,7 +1127,7 @@ function App() {
                           content={[
                             `Literature signal: ${formatLabel(summary.literature_signal)}`,
                             `${toArray(evidence.papers).length} paper records retrieved.`,
-                            toArray(evidence.papers)[0]?.title || 'No lead literature finding available.',
+                            toArray(evidence.papers)[0]?.paper_title || toArray(evidence.papers)[0]?.title || 'No lead literature finding available.',
                           ]}
                         />
                         <ReportSection
