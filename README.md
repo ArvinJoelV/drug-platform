@@ -1,47 +1,247 @@
-# Clinical Trials RAG System
+# AgentRx – Autonomous Drug Repurposing Intelligence Platform
 
-A Retrieval-Augmented Generation (RAG) system for searching and analyzing clinical trials data from ClinicalTrials.gov.
+AgentRx is a multi-agent, orchestrated intelligence system designed to transform fragmented biomedical data into structured, decision-ready insights for drug repurposing.
 
-## Features
-- **Dynamic Ingestion**: Automatically fetches and embeds clinical trial data for new drugs.
-- **Vector Database**: Uses ChromaDB for efficient semantic search.
-- **Strict Relevance**: Filters search results based on similarity thresholds.
-- **Detailed Insights**: Provides trial summaries, conditions, phases, and direct links to ClinicalTrials.gov and PubMed.
+The platform accepts a molecule as input, coordinates multiple domain-specific research agents, performs cross-domain reasoning, applies deterministic confidence scoring, detects contradictions, validates regulatory feasibility, and generates a structured innovation report.
 
-## Setup
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ArvinJoelV/drug-platform.git
-   cd drug-platform
-   # Switch to the clinical-agent branch if applicable
-   ```
+## Overview
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+Drug research data is distributed across multiple independent sources such as:
 
-3. **Required Python Version:**
-   - Python 3.9+ recommended.
+* PubMed for scientific literature
+* ClinicalTrials.gov for clinical trials
+* U.S. Food and Drug Administration for regulatory approvals
+
+AgentRx orchestrates these sources through a modular multi-agent system and synthesizes them into a unified analytical perspective.
+
+---
+
+## Key Features
+
+### Multi-Agent Architecture
+
+* Clinical Agent: Clinical trial retrieval and analysis
+* Literature Agent: Scientific paper extraction and reasoning
+* Patent Agent: Patent landscape and risk analysis
+* Regulatory Agent: Approvals, warnings, contraindications
+* Market Agent: Disease prevalence and market opportunity
+
+---
+
+### Orchestration Layer
+
+* Built using LangGraph
+* Parallel and sequential task execution
+* Centralized state management
+* Context-aware inter-agent communication
+
+---
+
+### Intelligence Layer
+
+* Signal normalization across domains
+* Cross-domain reasoning (disease-centric insights)
+* Deterministic confidence scoring
+* Opportunity ranking
+
+---
+
+### Pre-Agentic Mechanism Layer
+
+* Extracts mechanism of action (e.g., AMPK activation, VEGF inhibition)
+* Enables mechanism-aware reasoning across agents
+
+---
+
+### Contradiction Layer
+
+* Detects conflicts across domains
+* Flags missing or weak evidence
+* Improves scientific reliability
+
+---
+
+### Regulatory Post-Check
+
+* Validates top opportunities against regulatory data
+* Identifies risks, overlaps, and feasibility constraints
+
+---
+
+### Structured Output
+
+* Summary
+* Evidence
+* Intelligence
+* Contradictions
+* Regulatory validation
+* Final report
+
+---
+
+## Tech Stack
+
+### Backend
+
+* FastAPI
+* Pydantic
+* LangGraph
+* httpx
+
+### AI & Models
+
+* Gemini (report synthesis, regulatory reasoning)
+* Groq Llama (literature and patent analysis)
+
+### Data & Storage
+
+* ChromaDB (vector database)
+* Neo4j (graph relationships)
+
+### Frontend
+
+* React
+* Tailwind CSS
+* Axios
+
+---
+
+## System Architecture (Simplified Flow)
+
+Input → Pre-Agentic Layer → Parallel Agents → Aggregator → Intelligence → Contradiction Layer → Regulatory Post-Check → LLM Report → Final Output
+
+---
+
+## Setup Instructions
+
+Follow the steps below to run the complete system locally.
+
+---
+
+### 1. Backend Setup
+
+Create a virtual environment and install all dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install -r orchestrator\requirements.txt
+python -m pip install -r clinical-agent\requirements.txt
+python -m pip install -r patent-agent\requirements.txt
+```
+
+---
+
+### 2. Frontend Setup (Initial)
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
+cd frontend
+npm start
+```
+
+---
+
+### 3. Start Backend Services
+
+Return to the root directory.
+
+Stop any running services:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\stop_all_servers.ps1 -IncludeLauncherWindows
+```
+
+Wait until:
+“Stopped all” or “No server found”
+
+Start all agents and orchestrator:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\start_all_servers.ps1
+```
+
+Note:
+Startup may take 1–2 minutes as multiple agent services initialize.
+
+---
+
+### 4. Check System Health
+
+Verify that all agents are running:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check_health.ps1
+```
+
+Ensure all services return active status.
+
+---
+
+### 5. Run Frontend
+
+Navigate back to the frontend directory:
+
+```bash
+cd frontend
+npm run dev
+```
+
+---
+
+### 6. Access Application
+
+Open the frontend in your browser.
+
+You can now:
+
+* Check system health
+* Enter a molecule
+* Run full orchestrated analysis
+* View structured results and reports
+
+---
 
 ## Usage
 
-### Interactive Search
-Run the interactive RAG system:
-```bash
-python rag_query.py
-```
-Type a drug and a condition (e.g., `metformin cancer`) to see relevant clinical trials.
+1. Enter a molecule (e.g., Metformin)
+2. The system orchestrates all agents
+3. Observe real-time execution flow
+4. Explore results through:
 
-### Manual Ingestion
-To pre-ingest data for a specific drug:
-```bash
-python ingest_trials.py <drug_name>
-```
+   * Summary
+   * Agent outputs
+   * Intelligence layer
+   * Contradictions
+   * Final report
+5. Use chatbot interface for further queries
 
-## Essential Files
-- `clinical_api.py`: Handles fetching data from ClinicalTrials.gov API.
-- `ingest_trials.py`: Handles embedding and storing data in the vector database.
-- `rag_query.py`: Main entry point for the interactive RAG interface.
-- `requirements.txt`: Project dependencies.
+---
+
+## Notes
+
+* Some runs may show missing data (e.g., literature or patents) depending on API responses
+* The system explicitly flags such gaps through contradiction and confidence layers
+* This behavior is intentional to maintain transparency and avoid hallucinated outputs
+
+---
+
+## Project Vision
+
+AgentRx moves beyond traditional data retrieval systems by introducing:
+
+* Mechanism-aware reasoning
+* Cross-domain intelligence
+* Deterministic scoring
+* Contradiction-aware validation
+
+The goal is to build a **traceable, reliable decision intelligence system for drug repurposing**.
+
+---
+
+## Team
+
+SixDucktors
+Sri Sivasubramaniya Nadar College of Engineering
