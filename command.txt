@@ -3,3 +3,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start_all_servers.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\test_analysis.ps1 -Molecule "Metformin"
 powershell -ExecutionPolicy Bypass -File .\scripts\check_health.ps1
 
+
+
+.\drug\Scripts\Activate.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\stop_all_servers.ps1 -IncludeLauncherWindows
+powershell -ExecutionPolicy Bypass -File .\scripts\start_all_servers.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\test_analysis.ps1 -Molecule "Metformin"
+powershell -ExecutionPolicy Bypass -File .\scripts\check_health.ps1
