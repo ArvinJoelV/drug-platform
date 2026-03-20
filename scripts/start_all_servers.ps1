@@ -1,4 +1,4 @@
-﻿param(
+param(
     [string]$PythonExe = "",
     [switch]$SetupFirst
 )
@@ -13,9 +13,8 @@ function Resolve-Python {
     }
 
     $candidates = @(
-        (Join-Path (Split-Path -Parent $PSScriptRoot) "drug\Scripts\python.exe"),
-        "C:\Users\Anirudh\AppData\Local\Programs\Python\Python312\python.exe",
-        "C:\Users\Anirudh\AppData\Local\Programs\Python\Python310\python.exe"
+        (Join-Path (Split-Path -Parent $PSScriptRoot) "venv\Scripts\python.exe"),
+        "python"
     )
 
     foreach ($candidate in $candidates) {
@@ -46,8 +45,7 @@ function Start-AgentWindow {
 
 $python = Resolve-Python -Requested $PythonExe
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$activateScript = Join-Path $repoRoot "drug\Scripts\Activate.ps1"
-
+$activateScript = Join-Path $repoRoot "venv\Scripts\Activate.ps1"
 if (-not (Test-Path $python)) {
     throw "Could not find Python interpreter: $python"
 }
@@ -70,7 +68,7 @@ Start-Sleep -Seconds 1
 Start-AgentWindow -Title "Literature Agent :8002" -WorkingDirectory (Join-Path $repoRoot "literature-agent") -Command "& '$python' .\main.py" -ActivateScript $activateScript
 Start-Sleep -Seconds 1
 
-Start-AgentWindow -Title "Patent Agent :8003" -WorkingDirectory (Join-Path $repoRoot "patent-agent") -Command "& '$python' .\patent_server.py --port 8003" -ActivateScript $activateScript
+Start-AgentWindow -Title "Patent Agent :8003" -WorkingDirectory (Join-Path $repoRoot "patent-agent") -Command "& '$python' .\patent_server.py --port 8003 --database patent_database.json" -ActivateScript $activateScript
 Start-Sleep -Seconds 1
 
 Start-AgentWindow -Title "Market Agent :8004" -WorkingDirectory (Join-Path $repoRoot "market_agent") -Command "& '$python' .\market_server.py --port 8004" -ActivateScript $activateScript
