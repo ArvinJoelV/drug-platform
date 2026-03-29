@@ -7,32 +7,32 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/orchestrator': {
-        target: 'http://localhost:8000',
+        target: 'http://127.0.0.1:8000',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/orchestrator/, ''),
       },
       '/api/clinical': {
-        target: 'http://localhost:8001',
+        target: 'http://127.0.0.1:8001',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/clinical/, ''),
       },
       '/api/literature': {
-        target: 'http://localhost:8002',
+        target: 'http://127.0.0.1:8002',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/literature/, ''),
       },
       '/api/patent': {
-        target: 'http://localhost:8003',
+        target: 'http://127.0.0.1:8003',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/patent/, ''),
       },
       '/api/market': {
-        target: 'http://localhost:8004',
+        target: 'http://127.0.0.1:8004',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/market/, ''),
       },
       '/api/regulatory': {
-        target: 'http://localhost:8005',
+        target: 'http://127.0.0.1:8005',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/regulatory/, ''),
       },

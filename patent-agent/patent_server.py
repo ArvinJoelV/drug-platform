@@ -255,6 +255,7 @@ class PatentAnalysisAgent:
             "patent_status": core_status,  # Simplified for orchestrator
             "expiry_year": hard_facts["latest_expiry"].split("-")[0] if hard_facts["latest_expiry"] != "Unknown" else "Unknown",
             "commercial_freedom": llm_insights.get("repurposing_feasibility", {}).get("freedom_to_operate", "Unknown"),
+            "summary": llm_insights.get("repurposing_feasibility", {}).get("reasoning", "No patent reasoning available."),
             "detailed_analysis": {
                 "patent_summary": {
                     "total_patents_found": str(total_patents),
@@ -281,6 +282,7 @@ class PatentAnalysisAgent:
             "patent_status": "Unknown",
             "expiry_year": "Unknown",
             "commercial_freedom": "High",
+            "summary": "No patents found for this molecule in the database. This suggests freedom to operate, but verify with a comprehensive search.",
             "detailed_analysis": {
                 "patent_summary": {
                     "total_patents_found": "0",

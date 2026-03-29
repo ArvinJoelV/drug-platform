@@ -45,5 +45,26 @@
         "expiry_date": "2015-11-25"
       }
     ]
+  },
+  {
+    "molecule": "Metformin",
+    "patents": [
+      {
+        "patent_id": "US9876541",
+        "title": "Extended-release metformin formulations",
+        "abstract": "A controlled-release pharmaceutical composition comprising metformin hydrochloride for the treatment of type 2 diabetes.",
+        "assignee": "Bristol-Myers Squibb",
+        "filing_date": "1998-10-14",
+        "expiry_date": "2018-10-14"
+      },
+      {
+        "patent_id": "US7654321",
+        "title": "Method of treating diabetes using metformin combinations",
+        "abstract": "Methods for treating diabetes mellitus by co-administering metformin with other anti-diabetic agents.",
+        "assignee": "Merck Sante",
+        "filing_date": "2005-04-20",
+        "expiry_date": "2025-04-20"
+      }
+    ]
   }
 ]
